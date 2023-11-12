@@ -25,7 +25,8 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
+<!-- HERES THE DRAFT-->
+![DRAFT HOMEPAGE](./public/images/Mask%20groupdraft.png)
 
 <!-- PROJECT LOGO -->
 <br />
