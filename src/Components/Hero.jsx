@@ -5,7 +5,7 @@ import './Hero.css';
 
 function Hero() {
   return (
-    <>
+    <div className='hero-container'>
       <img src='../../public/images/chester.jpeg' alt='Chester' id='hero-img' />
       <h1>
         <span>CHESTER LEE</span> COLOMA
@@ -25,7 +25,7 @@ function Hero() {
       <div id='menu-icon-div'>
         <MenuIcon id='menu-icon' />
       </div>
-    </>
+    </div>
   );
 }
 
