@@ -23,7 +23,7 @@ h1 {
 }
 
 h1 span {
-  color: #0F8064;
+  color: #0f8064;
   font-weight: 900;
 }
 
@@ -33,4 +33,36 @@ h3 {
 
 hr {
   margin-top: 0.5rem;
+}
+
+#hero-message {
+  margin: 2rem 2rem 0;
+  font-size: 210%;
+  color: darkslategray;
+}
+
+#hero-message-span {
+  text-decoration: underline;
+}
+
+.button-style {
+  width: 75%;
+  height: 3rem;
+}
+
+#project-button {
+  margin-top: 1rem;
+  background-color: #0f8064;
+  text-transform: none;
+  font-weight: 700;
+  font-size: 120%;
+}
+
+#contact-button {
+  margin-top: 1rem;
+  text-transform: none;
+  font-weight: 700;
+  color: #0f8064;
+  border-color: #0f8064;
+  font-size: 120%;
 }
