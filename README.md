@@ -26,6 +26,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- HERES THE DRAFT-->
+![Mobile Homepage](./public/images/mobile.png)
 ![DRAFT HOMEPAGE](./public/images/Mask%20groupdraft.png)
 
 <!-- PROJECT LOGO -->
