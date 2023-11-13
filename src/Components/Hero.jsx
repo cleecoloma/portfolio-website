@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import MenuIcon from '@mui/icons-material/Menu';
 import './Hero.css';
 
 function Hero() {
@@ -21,8 +22,11 @@ function Hero() {
       <Button id='contact-button' className='button-style' variant='outlined'>
         Contact me
       </Button>
+      <div id='menu-icon-div'>
+        <MenuIcon id='menu-icon' />
+      </div>
     </>
   );
 }
 
-export default Hero
+export default Hero;

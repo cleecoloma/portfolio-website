@@ -66,3 +66,21 @@ hr {
   border-color: #0f8064;
   font-size: 120%;
 }
+
+#menu-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #0f8064;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+#menu-icon {
+  font-size: 200%;
+}
