@@ -1,10 +1,13 @@
-import { useState } from 'react'
+import React from 'react';
+import Hero from './Components/Hero';
+import Background from './Components/Background';
 import './App.css'
 
 function App() {
   return (
     <>
-      <h1>Hello world, My name is Chester Lee Coloma</h1>
+      <Hero />
+      <Background />
     </>
   )
 }
