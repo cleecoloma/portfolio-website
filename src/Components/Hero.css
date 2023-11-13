@@ -18,11 +18,19 @@ img {
 h1 {
   font-family: 'Roboto', sans-serif;
   margin-top: 2rem;
-  font-size: 160%;
+  font-size: 180%;
   font-weight: 400;
 }
 
 h1 span {
   color: #0F8064;
   font-weight: 900;
+}
+
+h3 {
+  color: darkslategrey;
+}
+
+hr {
+  margin-top: 0.5rem;
 }

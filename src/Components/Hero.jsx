@@ -8,6 +8,8 @@ function Hero() {
       <h1>
         <span>CHESTER LEE</span> COLOMA
       </h1>
+      <h3>Full-stack Software Developer</h3>
+      <hr />
     </>
   );
 }
