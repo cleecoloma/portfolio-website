@@ -6,7 +6,7 @@ import './Hero.css';
 function Hero() {
   return (
     <div className='hero-container'>
-      <img src='../../public/images/chester.jpeg' alt='Chester' id='hero-img' />
+      <img src='../../images/chester.jpeg' alt='Chester' id='hero-img' />
       <h1>
         <span>CHESTER LEE</span> COLOMA
       </h1>
