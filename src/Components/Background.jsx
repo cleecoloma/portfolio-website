@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
 import SettingsIcon from '@mui/icons-material/Settings';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import CodeIcon from '@mui/icons-material/Code';
@@ -33,3 +32,4 @@ function Background() {
 }
 
 export default Background;
+
