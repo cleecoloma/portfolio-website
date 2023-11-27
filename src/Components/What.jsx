@@ -12,12 +12,12 @@ function What() {
       </p>
       <Container>
         <Row>
-          <Col>1</Col>
-          <Col>2</Col>
+          <Col>LANGUAGES</Col>
+          <Col>FRAMEWORKS/LIBRARIES</Col>
         </Row>
         <Row>
-          <Col>3</Col>
-          <Col>4</Col>
+          <Col>TOOLS</Col>
+          <Col>AWS</Col>
         </Row>
       </Container>
       <div id='tool-container'></div>
