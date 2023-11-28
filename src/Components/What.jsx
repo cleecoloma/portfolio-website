@@ -13,7 +13,11 @@ function What() {
       <Container>
         <Row>
           <Col>LANGUAGES</Col>
+          <p>JavaScript</p>
+          <Col>MARKUP LANGUAGES</Col>
+          <p>HTML, CSS</p>
           <Col>FRAMEWORKS/LIBRARIES</Col>
+          <p>React, Node, Express, MongoDB, Mongoose, Redux</p>
         </Row>
         <Row>
           <Col>TOOLS</Col>
