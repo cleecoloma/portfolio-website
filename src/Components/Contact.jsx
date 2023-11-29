@@ -28,9 +28,22 @@ function Contact() {
         <Button variant='outline-success'>Send Message</Button>
       </div>
       <div id='link-container'>
-        <LinkedInIcon id='linkedin-icon' />
-        <GitHubIcon id='github-icon' />
+        <a
+          href='https://www.linkedin.com/in/chesterleecoloma/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <LinkedInIcon id='linkedin-icon' />
+        </a>
+        <a
+          href='https://github.com/cleecoloma'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <GitHubIcon id='github-icon' />
+        </a>
       </div>
+
       <div id='footer-container'>
         <p>
           Designed and built by
