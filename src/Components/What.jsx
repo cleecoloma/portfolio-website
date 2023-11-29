@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import BuildIcon from '@mui/icons-material/Build';
 import './What.css';
 
 function What() {
@@ -28,10 +29,7 @@ function What() {
         </Row>
         <Row>
           <Col xs={6} className='grid-col'>
-            <strong>
-              FRAMEWORKS/
-              LIBRARIES
-              </strong>
+            <strong>FRAMEWORKS/ LIBRARIES</strong>
             <ul>
               <li>React</li>
               <li>Node</li>
@@ -53,10 +51,7 @@ function What() {
         </Row>
         <Row>
           <Col xs={6} className='grid-col'>
-            <strong>
-              TOOLS/
-              TECHNOLOGIES
-            </strong>
+            <strong>TOOLS/ TECHNOLOGIES</strong>
             <ul>
               <li>Git</li>
               <li>GitHub</li>
@@ -85,7 +80,9 @@ function What() {
           </Col>
         </Row>
       </Container>
-      <div id='tool-container'></div>
+      <div id='icon-container'>
+        <BuildIcon id='build-icon' />
+      </div>
     </div>
   );
 }
