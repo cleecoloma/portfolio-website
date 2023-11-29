@@ -67,6 +67,7 @@ function Projects() {
           <Button variant='primary'>TOOLS</Button>
         </Card.Body>
       </Card>
+      <Button variant='success' id='see-more-button'>SEE MORE PROJECTS</Button>
     </div>
   );
 }
