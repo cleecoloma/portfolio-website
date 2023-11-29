@@ -1,7 +1,6 @@
 .background-container {
   background-color: #EEE;
-  /* text-align: center; */
-  height: 100vh;
+  min-height: 100vh;
   padding: 4rem 2rem 1rem;
 }
 
