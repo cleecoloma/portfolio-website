@@ -14,3 +14,22 @@
 .projects-card {
   margin: 0 0.5rem 2rem;
 }
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-card button {
+  margin-left: 1rem;
+  font-size: 70%;
+}
+
+#card-title {
+  font-size: 95%;
+}
+
+#card-text {
+  font-size: 85%;
+}

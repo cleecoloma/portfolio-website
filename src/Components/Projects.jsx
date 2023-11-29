@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './Projects.css'
+import './Projects.css';
 
 function Projects() {
   return (
@@ -10,16 +10,65 @@ function Projects() {
       <Card className='projects-card'>
         <Card.Img src='../../public/images/job-application-tracker.png' />
         <Card.Body>
-          <Card.Title>Job Application Tracker</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          <div className='card-header'>
+            <Card.Title id='card-title'>Job Application Tracker</Card.Title>
+            <Button variant='primary'>DEMO</Button>
+            <Button variant='primary'>CODE</Button>
+          </div>
+          <Card.Text id='card-text'>
+            A mobile-responsive job application tracker web application using
+            the MERN (MongoDB, Express, React, Node) stack, enabling users to
+            seamlessly create, manage, and track job listings across four
+            categories (Interested, Applied, Interview, Rejected).
           </Card.Text>
-          <Button variant='primary'>Go somewhere</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+        </Card.Body>
+      </Card>
+      <Card className='projects-card'>
+        <Card.Img src='../../public/images/job-application-tracker.png' />
+        <Card.Body>
+          <div className='card-header'>
+            <Card.Title id='card-title'>Job Application Tracker</Card.Title>
+            <Button variant='primary'>DEMO</Button>
+            <Button variant='primary'>CODE</Button>
+          </div>
+          <Card.Text id='card-text'>
+            A mobile-responsive job application tracker web application using
+            the MERN (MongoDB, Express, React, Node) stack, enabling users to
+            seamlessly create, manage, and track job listings across four
+            categories (Interested, Applied, Interview, Rejected).
+          </Card.Text>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+        </Card.Body>
+      </Card>
+      <Card className='projects-card'>
+        <Card.Img src='../../public/images/job-application-tracker.png' />
+        <Card.Body>
+          <div className='card-header'>
+            <Card.Title id='card-title'>Job Application Tracker</Card.Title>
+            <Button variant='primary'>DEMO</Button>
+            <Button variant='primary'>CODE</Button>
+          </div>
+          <Card.Text id='card-text'>
+            A mobile-responsive job application tracker web application using
+            the MERN (MongoDB, Express, React, Node) stack, enabling users to
+            seamlessly create, manage, and track job listings across four
+            categories (Interested, Applied, Interview, Rejected).
+          </Card.Text>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
+          <Button variant='primary'>TOOLS</Button>
         </Card.Body>
       </Card>
     </div>
   );
-} 
+}
 
-export default Projects
+export default Projects;
