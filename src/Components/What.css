@@ -1,10 +1,28 @@
 .what-container {
   background-color: #E5E5E5;
-  height: 100vh;
+  min-height: 100vh;
   padding: 4rem 2rem 1rem;
 }
 
 #what-description {
   margin-top: 1rem;
   padding: 0 1rem;
+}
+
+.grid-col {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+#icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 3rem;
+}
+
+#build-icon {
+  font-size: 64px;
+  margin: 0 1rem;
+  color: darkslategrey;
 }
