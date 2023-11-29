@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import './Contact.css';
 
 function Contact() {
@@ -12,20 +14,34 @@ function Contact() {
         <Form>
           <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
             <Form.Label>Name</Form.Label>
-            <Form.Control type='text' placeholder='name' />
+            <Form.Control type='text' placeholder='Name' />
           </Form.Group>
           <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
             <Form.Label>Email address</Form.Label>
-            <Form.Control type='email' placeholder='name@example.com' />
+            <Form.Control type='email' placeholder='Name@example.com' />
           </Form.Group>
           <Form.Group className='mb-3' controlId='exampleForm.ControlTextarea1'>
             <Form.Label>Message</Form.Label>
-            <Form.Control as='textarea' rows={5} />
+            <Form.Control as='textarea' rows={5} placeholder='Say hello' />
           </Form.Group>
         </Form>
-        <Button>Send Message</Button>
+        <Button variant='outline-success'>Send Message</Button>
       </div>
-      <div id='link-container'></div>
+      <div id='link-container'>
+        <LinkedInIcon id='linkedin-icon' />
+        <GitHubIcon id='github-icon' />
+      </div>
+      <div id='footer-container'>
+        <p>
+          Designed and built by
+          <br />
+          <strong>
+            <span>CHESTER LEE</span> <span>COLOMA</span>
+          </strong>
+          <br />
+          2023
+        </p>
+      </div>
     </div>
   );
 }
