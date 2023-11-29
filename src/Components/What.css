@@ -1,10 +1,15 @@
 .what-container {
   background-color: #E5E5E5;
-  height: 100vh;
+  min-height: 100vh;
   padding: 4rem 2rem 1rem;
 }
 
 #what-description {
   margin-top: 1rem;
   padding: 0 1rem;
+}
+
+.grid-col {
+  word-wrap: break-word;
+  max-width: 100%;
 }

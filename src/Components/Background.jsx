@@ -1,6 +1,6 @@
 import React from 'react';
 import SettingsIcon from '@mui/icons-material/Settings';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import ForwardIcon from '@mui/icons-material/Forward';
 import CodeIcon from '@mui/icons-material/Code';
 import './Background.css';
 
@@ -24,7 +24,7 @@ function Background() {
       </p>
       <div id='icon-container'>
         <SettingsIcon id='gear-icon' />
-        <ArrowRightAltIcon id='arrow-icon' />
+        <ForwardIcon id='arrow-icon' />
         <CodeIcon id='code-icon' />
       </div>
     </div>

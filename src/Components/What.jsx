@@ -10,28 +10,79 @@ function What() {
         I’m a <strong>full-stack software developer</strong> with a focus on
         responsive design and user interface (UI) development.
       </p>
-      <Container>
+      <Container id='tool-container'>
         <Row>
-          <Col>LANGUAGES</Col>
-          <p>JavaScript</p>
-          <Col>MARKUP LANGUAGES</Col>
-          <p>HTML, CSS</p>
-          <Col>FRAMEWORKS/LIBRARIES</Col>
-          <p>React, Node, Express, MongoDB, Mongoose, Redux</p>
+          <Col xs={6} className='grid-col'>
+            <strong>LANGUAGES</strong>
+            <ul>
+              <li>JavaScript</li>
+            </ul>
+          </Col>
+          <Col xs={6} className='grid-col'>
+            <strong>MARKUP LANGUAGES</strong>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </Col>
         </Row>
         <Row>
-          <Col>REACT HOOKS</Col>
-          <p>useState, useEffect, useContext, useReducer</p>
-          <Col>TOOLS/TECHNOLOGIES</Col>
-          <p>
-            Git, GitHub, Auth0, RESTful API, Bootstrap, React Native, Render,
-            Netlify, Jest, Supertest, Thunder Client, Trello, VS Code
-          </p>
-          <Col>CLOUD SERVICES</Col>
-          <p>
-            AWS Cloud Services (Elastic Beanstalk, S3, Lambda, API Gateway,
-            DynamoDB, SNS, and SQS), Google Cloud
-          </p>
+          <Col xs={6} className='grid-col'>
+            <strong>
+              FRAMEWORKS/
+              LIBRARIES
+              </strong>
+            <ul>
+              <li>React</li>
+              <li>Node</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>Redux</li>
+            </ul>
+          </Col>
+          <Col xs={6} className='grid-col'>
+            <strong>REACT HOOKS</strong>
+            <ul>
+              <li>useState</li>
+              <li>useEffect</li>
+              <li>useContext</li>
+              <li>useReducer</li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={6} className='grid-col'>
+            <strong>
+              TOOLS/
+              TECHNOLOGIES
+            </strong>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Auth0</li>
+              <li>RESTful API</li>
+              <li>Bootstrap</li>
+              <li>React Native</li>
+              <li>Render</li>
+              <li>Netlify</li>
+              <li>Jest</li>
+              <li>Supertest</li>
+              <li>Thunder Client</li>
+              <li>Trello</li>
+              <li>VS Code</li>
+            </ul>
+          </Col>
+          <Col xs={6} className='grid-col'>
+            <strong>CLOUD SERVICES</strong>
+            <ul>
+              <li>
+                AWS Cloud Services (Elastic Beanstalk, S3, Lambda, API Gateway,
+                DynamoDB, SNS, and SQS)
+              </li>
+              <li>Google Cloud Storage</li>
+            </ul>
+          </Col>
         </Row>
       </Container>
       <div id='tool-container'></div>
