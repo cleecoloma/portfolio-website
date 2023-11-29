@@ -1,7 +1,6 @@
 .projects-container {
   background-color: #EEE;
   min-height: 100vh;
-  
 }
 
 .projects-container h4 {
@@ -32,4 +31,13 @@
 
 #card-text {
   font-size: 85%;
+}
+
+#see-more-button {
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 4rem;
 }
