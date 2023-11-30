@@ -1,39 +1,41 @@
-.background-container {
-  background-color: #eee;
-  max-height: 100vh;
-}
+@media only screen and (max-width: 390px) {
+  .background-container {
+    background-color: #eee;
+    max-height: 100vh;
+  }
 
-.background-container h4 {
-  padding: 4rem 1.5rem 1rem;
-  font-weight: 700;
-  text-decoration: underline;
-  color: #0f8064;
-}
+  .background-container h4 {
+    padding: 4rem 1.5rem 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #0f8064;
+  }
 
-#background-description {
-  padding: 0 2rem;
-}
+  #background-description {
+    padding: 0 2rem;
+  }
 
-#icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
+  #icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
 
-#arrow-icon {
-  font-size: 36px;
-  color: gray;
-}
+  #arrow-icon {
+    font-size: 36px;
+    color: gray;
+  }
 
-#gear-icon {
-  font-size: 64px;
-  margin: 0 1rem;
-  color: darkslategrey;
-}
+  #gear-icon {
+    font-size: 64px;
+    margin: 0 1rem;
+    color: darkslategrey;
+  }
 
-#code-icon {
-  font-size: 88px;
-  margin: 0 1rem;
-  color: darkolivegreen;
+  #code-icon {
+    font-size: 88px;
+    margin: 0 1rem;
+    color: darkolivegreen;
+  }
 }
