@@ -8,7 +8,10 @@ function Projects() {
     <div className='projects-container'>
       <h4>FEATURED PROJECTS</h4>
       <Card className='projects-card'>
-        <Card.Img src='../../public/images/job-application-tracker.png' />
+        <Card.Img
+          className='card-img'
+          src='../../public/images/job-application-tracker.png'
+        />
         <Card.Body>
           <div className='card-header'>
             <Card.Title id='card-title'>Job Application Tracker</Card.Title>
@@ -28,7 +31,10 @@ function Projects() {
         </Card.Body>
       </Card>
       <Card className='projects-card'>
-        <Card.Img src='../../public/images/job-application-tracker.png' />
+        <Card.Img
+          className='card-img'
+          src='../../public/images/job-application-tracker.png'
+        />
         <Card.Body>
           <div className='card-header'>
             <Card.Title id='card-title'>Job Application Tracker</Card.Title>
@@ -48,7 +54,10 @@ function Projects() {
         </Card.Body>
       </Card>
       <Card className='projects-card'>
-        <Card.Img src='../../public/images/job-application-tracker.png' />
+        <Card.Img
+          className='card-img'
+          src='../../public/images/job-application-tracker.png'
+        />
         <Card.Body>
           <div className='card-header'>
             <Card.Title id='card-title'>Job Application Tracker</Card.Title>
@@ -67,7 +76,9 @@ function Projects() {
           <Button variant='primary'>TOOLS</Button>
         </Card.Body>
       </Card>
-      <Button variant='success' id='see-more-button'>SEE MORE PROJECTS</Button>
+      <Button variant='success' id='see-more-button'>
+        SEE MORE PROJECTS
+      </Button>
     </div>
   );
 }
