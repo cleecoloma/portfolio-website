@@ -1,6 +1,6 @@
 .background-container {
   background-color: #eee;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 425px) {
