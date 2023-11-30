@@ -2,7 +2,7 @@
 .hero-container {
   background-color: #e5e5e5;
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .hero-container img {
@@ -43,7 +43,7 @@
   border-color: #0f8064;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 425px) {
   .hero-container {
     padding-top: 2rem;
   }
@@ -111,13 +111,14 @@
   }
 }
 
-@media only screen and (min-width: 391px) and (max-width: 850px) {
+@media only screen and (min-width: 425px) and (max-width: 834px) {
   .hero-container {
-    padding-top: 2rem;
+    padding-top: 5.5rem;
+    min-height: 100vh - 3.5rem;
   }
 
   .hero-container img {
-    width: 300px;
+    width: 320px;
   }
 
   .hero-container h1 {
@@ -140,9 +141,11 @@
   }
 
   #hero-message {
-    margin: 0 auto;
-    font-size: 250%;
-    width: 45%;
+    text-align: center;
+    font-size: 230%;
+    margin: 0 10rem;
+    max-width: 100%;
+    box-sizing: border-box; 
   }
 
   #button-container {
@@ -163,5 +166,9 @@
     font-weight: 700;
     font-size: 120%;
     width: 15rem;
+  }
+
+  #menu-icon-div {
+    display: none;
   }
 }

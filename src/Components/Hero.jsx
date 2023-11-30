@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Hero.css';
@@ -6,7 +6,7 @@ import './Hero.css';
 function Hero() {
   return (
     <div className='hero-container'>
-      <img src='../../images/chester.jpeg' alt='Chester' id='hero-img' />
+      <img src='../../images/chester.jpeg' alt='chester' id='hero-img' />
       <h1>
         <span>CHESTER LEE</span> COLOMA
       </h1>

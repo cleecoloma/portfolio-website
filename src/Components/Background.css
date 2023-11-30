@@ -1,9 +1,9 @@
-@media only screen and (max-width: 390px) {
-  .background-container {
-    background-color: #eee;
-    max-height: 100vh;
-  }
+.background-container {
+  background-color: #eee;
+  max-height: 100vh;
+}
 
+@media only screen and (max-width: 425px) {
   .background-container h4 {
     padding: 4rem 1.5rem 1rem;
     font-weight: 700;
@@ -37,5 +37,49 @@
     font-size: 88px;
     margin: 0 1rem;
     color: darkolivegreen;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 834px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  #background-description {
+    width: 70%;
+    text-align: center;
+    font-size: 115%;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 350px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+  }
+
+  #second-description div {
+    padding: 1rem;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 250px;
+    object-fit: contain;
   }
 }
