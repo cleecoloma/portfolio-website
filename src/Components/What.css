@@ -1,9 +1,9 @@
-@media only screen and (max-width: 390px) {
-  .what-container {
-    background-color: #e5e5e5;
-    min-height: 100vh;
-  }
+.what-container {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+}
 
+@media only screen and (max-width: 390px) {
   .what-container h4 {
     padding: 4rem 1.5rem 1rem;
     font-weight: 700;
@@ -35,5 +35,34 @@
     font-size: 64px;
     margin: 0 1rem;
     color: darkslategrey;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 834px) {
+  .what-container h4 {
+    display: none;
+  }
+
+  .what-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  #what-description {
+    width: 60%;
+    text-align: center;
+    font-size: 170%;
+  }
+
+  #tool-container {
+    margin: 2rem 0;
+    padding: 0 7rem;
+  }
+
+  #icon-container {
+    display: none;
   }
 }
