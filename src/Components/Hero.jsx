@@ -16,12 +16,18 @@ function Hero() {
         I build <span id='hero-message-span'>digital bridges</span> that connect{' '}
         <strong>ideas</strong> with the <strong>world.</strong>
       </p>
-      <Button id='project-button' className='button-style' variant='contained'>
-        See my projects
-      </Button>
-      <Button id='contact-button' className='button-style' variant='outlined'>
-        Contact me
-      </Button>
+      <div id='button-container'>
+        <Button
+          id='project-button'
+          className='button-style'
+          variant='contained'
+        >
+          See my projects
+        </Button>
+        <Button id='contact-button' className='button-style' variant='outlined'>
+          Contact me
+        </Button>
+      </div>
       <div id='menu-icon-div'>
         <MenuIcon id='menu-icon' />
       </div>
