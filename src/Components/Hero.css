@@ -1,42 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
-
 .hero-container {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   text-align: center;
-  height: 100vh;
-  padding-top: 2rem;
+  min-height: 100vh;
 }
 
-img {
+.hero-container img {
   margin: 0 auto;
-  width: 250px;
   border-radius: 50%;
   box-shadow: rgba(116, 26, 26, 0.35) 0px 5px 15px;
 }
 
-h1 {
+.hero-container h1 {
   font-family: 'Roboto', sans-serif;
-  margin-top: 2rem;
-  font-size: 180%;
-  font-weight: 400;
 }
 
-h1 span {
+.hero-container h1 span {
   color: #0f8064;
-  font-weight: 900;
 }
 
-h3 {
+.hero-container h3 {
+  font-weight: 700;
   color: darkslategrey;
 }
 
-hr {
-  margin: 0.5rem 1rem 0;
-}
-
 #hero-message {
-  margin: 2rem 2rem 0;
-  font-size: 210%;
   color: darkslategray;
 }
 
@@ -44,42 +32,143 @@ hr {
   text-decoration: underline;
 }
 
-.button-style {
-  width: 75%;
-  height: 3rem;
-}
-
 #project-button {
-  margin-top: 2rem;
   background-color: #0f8064;
   text-transform: none;
-  font-weight: 700;
-  font-size: 120%;
 }
 
 #contact-button {
-  margin-top: 1rem;
   text-transform: none;
-  font-weight: 700;
   color: #0f8064;
   border-color: #0f8064;
-  font-size: 120%;
 }
 
-#menu-icon-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: #0f8064;
-  color: white;
-  height: 3rem;
-  width: 3rem;
-  border-radius: 50%;
+@media only screen and (max-width: 425px) {
+  .hero-container {
+    padding-top: 2rem;
+  }
+
+  .hero-container img {
+    width: 250px;
+  }
+
+  .hero-container h1 {
+    margin-top: 2rem;
+    font-size: 180%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 900;
+  }
+
+  .hero-container h3 {
+    font-size: 110%;
+  }
+
+  hr {
+    margin: 0.5rem 1rem 0;
+  }
+
+  #hero-message {
+    margin: 2rem 2rem 0;
+    font-size: 210%;
+  }
+
+  .button-style {
+    width: 75%;
+    height: 3rem;
+  }
+
+  #project-button {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 120%;
+  }
+
+  #contact-button {
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 120%;
+  }
+
+  #menu-icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #0f8064;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+  }
+
+  #menu-icon {
+    font-size: 200%;
+  }
 }
 
-#menu-icon {
-  font-size: 200%;
+@media only screen and (min-width: 425px) and (max-width: 834px) {
+  .hero-container {
+    padding-top: 5.5rem;
+    min-height: 100vh - 3.5rem;
+  }
+
+  .hero-container img {
+    width: 320px;
+  }
+
+  .hero-container h1 {
+    margin-top: 2rem;
+    font-size: 170%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 900;
+  }
+
+  .hero-container h3 {
+    font-size: 110%;
+  }
+
+  .hero-container hr {
+    margin: 1rem auto;
+    width: 70%;
+  }
+
+  #hero-message {
+    text-align: center;
+    font-size: 230%;
+    margin: 0 10rem;
+    max-width: 100%;
+    box-sizing: border-box; 
+  }
+
+  #button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 15rem;
+  }
+
+  #contact-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 15rem;
+  }
+
+  #menu-icon-div {
+    display: none;
+  }
 }

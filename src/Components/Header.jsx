@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import './Header.css'
 
 function Header() {
   return (
-    <div>Header</div>
-  )
+    <Navbar id='header-navbar' bg='light' data-bs-theme='light'>
+      <Container>
+        <Navbar.Brand href='#home'>CC</Navbar.Brand>
+        <Nav className='me-auto'>
+          <Nav.Link href='#background'>Background</Nav.Link>
+          <Nav.Link href='#skills'>Skills</Nav.Link>
+          <Nav.Link href='#projects'>Projects</Nav.Link>
+          <Nav.Link href='#contact'>Contact</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+  );
 }
 
 export default Header
