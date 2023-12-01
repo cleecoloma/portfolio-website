@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import BuildIcon from '@mui/icons-material/Build';
 import './What.css';
 
-function What() {
+function What({ id }) {
   return (
-    <div className='what-container'>
+    <div className='what-container' id={id}>
       <h4>WHAT I DO</h4>
       <div id='what-text'>
         <p id='what-description'>

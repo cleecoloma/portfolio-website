@@ -154,6 +154,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 6rem 3rem 0;
   }
 
   .contact-left {

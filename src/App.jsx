@@ -33,11 +33,15 @@ function App() {
   return (
     <>
       {showHeader && <Header />}
-      <Hero />
-      <Background />
-      <What />
-      {isDesktop ? <ProjectsDesktop /> : <Projects />}
-      <Contact />
+      <Hero id='home' />
+      <Background id='background' />
+      <What id='skills' />
+      {isDesktop ? (
+        <ProjectsDesktop id='projects' />
+      ) : (
+        <Projects id='projects' />
+      )}
+      <Contact id='contact' />
     </>
   );
 }

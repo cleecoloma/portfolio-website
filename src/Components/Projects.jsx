@@ -3,9 +3,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Projects.css';
 
-function Projects() {
+function Projects({ id }) {
   return (
-    <div className='projects-container'>
+    <div className='projects-container' id={id}>
       <h4>FEATURED PROJECTS</h4>
       <Card className='projects-card'>
         <Card.Img
