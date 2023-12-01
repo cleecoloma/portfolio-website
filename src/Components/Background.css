@@ -112,6 +112,120 @@
 
   #first-description {
     display: flex;
+    font-size: 100%;
+    margin: 0 3rem;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 300px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+    font-size: 90%;
+    margin: 3rem 6rem 0;
+  }
+
+  #second-description div {
+    width: 60%;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 250px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    display: flex;
+    font-size: 110%;
+    margin: 0 3rem;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 420px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+    font-size: 100%;
+    margin: 3rem 6rem 0;
+  }
+
+  #second-description div {
+    width: 60%;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    display: flex;
     font-size: 150%;
     margin: 0 6rem;
   }
