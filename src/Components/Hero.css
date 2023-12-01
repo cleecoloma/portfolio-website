@@ -90,6 +90,7 @@
     margin-top: 1rem;
     font-weight: 700;
     font-size: 120%;
+    background-color: white;
   }
 
   #menu-icon-div {
@@ -166,6 +167,7 @@
     font-weight: 700;
     font-size: 120%;
     width: 15rem;
+    background-color: white;
   }
 
   #menu-icon-div {
@@ -176,12 +178,13 @@
 @media only screen and (min-width: 835px) {
   .hero-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8rem 0;
   }
 
-  .left-div,
-  .right-div {
-    width: 48%;
+  .left-div, .right-div {
+    width: 45%;
   }
 
   .right-div {
@@ -198,12 +201,16 @@
     font-weight: 700;
   }
 
+  .hero-container h3 {
+    font-size: 150%;
+  }
+
   .hero-container img {
     width: 420px;
   }
 
   #hero-message {
-    margin: 2rem 2rem 0;
+    margin: 2rem 6rem 0;
     font-size: 400%;
     font-weight: 300;
   }
@@ -218,5 +225,27 @@
 
   .hero-container hr {
     display: none;
+  }
+
+  #button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-button {
+    margin: 5rem 1rem 0;
+    font-weight: 700;
+    font-size: 120%;
+    width: 23rem;
+  }
+
+  #contact-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 23rem;
+    background-color: white;
   }
 }
