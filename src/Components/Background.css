@@ -225,32 +225,18 @@
   }
 
   #first-description {
-    display: flex;
     font-size: 150%;
-    margin: 0 6rem;
   }
 
   #first-description img {
-    margin: 1rem auto 0;
-    padding: 1rem;
     width: 550px;
-    object-fit: contain;
   }
 
   #second-description {
-    display: flex;
     font-size: 140%;
-    margin: 3rem 6rem 0;
-  }
-
-  #second-description div {
-    width: 60%;
   }
 
   #second-description img {
-    padding: 1rem;
     width: 450px;
-    object-fit: contain;
-    margin: 0 auto;
   }
 }
