@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
   .background-container h4 {
     padding: 4rem 1.5rem 1rem;
     font-weight: 700;
@@ -93,6 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   #background-description {
@@ -111,20 +112,20 @@
 
   #first-description {
     display: flex;
-    font-size: 150%;
-    margin: 0 6rem;
+    font-size: 100%;
+    margin: 0 3rem;
   }
 
   #first-description img {
     margin: 1rem auto 0;
     padding: 1rem;
-    width: 550px;
+    width: 300px;
     object-fit: contain;
   }
 
   #second-description {
     display: flex;
-    font-size: 140%;
+    font-size: 90%;
     margin: 3rem 6rem 0;
   }
 
@@ -134,8 +135,108 @@
 
   #second-description img {
     padding: 1rem;
-    width: 450px;
+    width: 250px;
     object-fit: contain;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    display: flex;
+    font-size: 110%;
+    margin: 0 3rem;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 420px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+    font-size: 100%;
+    margin: 3rem 6rem 0;
+  }
+
+  #second-description div {
+    width: 60%;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    font-size: 150%;
+  }
+
+  #first-description img {
+    width: 550px;
+  }
+
+  #second-description {
+    font-size: 140%;
+  }
+
+  #second-description img {
+    width: 450px;
   }
 }

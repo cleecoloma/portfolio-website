@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 424px) {
   .contact-container h4 {
     padding: 4rem 2rem 1rem;
     font-weight: 700;
@@ -154,6 +154,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 6rem 3rem 0;
   }
 
   .contact-left {

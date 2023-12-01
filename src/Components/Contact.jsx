@@ -5,9 +5,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import './Contact.css';
 
-function Contact() {
+function Contact({ id }) {
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id={id}>
       <h4>CONTACT</h4>
       <div className='contact-body'>
         <div className='contact-left'>

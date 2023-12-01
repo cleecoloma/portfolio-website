@@ -2,15 +2,15 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import './ProjectsDesktop.css';
 
-function ProjectsDesktop() {
+function ProjectsDesktop({ id }) {
   return (
-    <div className='projects-desktop-container'>
+    <div className='projects-desktop-container' id={id}>
       <h4>FEATURED PROJECTS</h4>
       <div className='projects-desktop-card'>
         <img src='../../public/images/job-application-tracker.png' />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
-            <p id='card-title'>Job Application Tracker</p>
+            <p id='card-desktop-title'>Job Application Tracker</p>
           </div>
           <div className='card-desktop-links'>
             <Button variant='primary'>DEMO</Button>
@@ -34,7 +34,7 @@ function ProjectsDesktop() {
         <img src='../../public/images/job-application-tracker.png' />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
-            <p id='card-title'>Job Application Tracker</p>
+            <p id='card-desktop-title'>Job Application Tracker</p>
           </div>
           <div className='card-desktop-links'>
             <Button variant='primary'>DEMO</Button>
@@ -58,7 +58,7 @@ function ProjectsDesktop() {
         <img src='../../public/images/job-application-tracker.png' />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
-            <p id='card-title'>Job Application Tracker</p>
+            <p id='card-desktop-title'>Job Application Tracker</p>
           </div>
           <div className='card-desktop-links'>
             <Button variant='primary'>DEMO</Button>

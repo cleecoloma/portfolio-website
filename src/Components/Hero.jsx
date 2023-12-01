@@ -3,9 +3,9 @@ import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Hero.css';
 
-function Hero() {
+function Hero({ id }) {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id={id}>
       <div className='left-div'>
         <img src='../../images/chester.jpeg' alt='chester' id='hero-img' />
         <h1>

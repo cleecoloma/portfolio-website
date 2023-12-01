@@ -4,9 +4,9 @@ import ForwardIcon from '@mui/icons-material/Forward';
 import CodeIcon from '@mui/icons-material/Code';
 import './Background.css';
 
-function Background() {
+function Background({ id }) {
   return (
-    <div className='background-container'>
+    <div className='background-container' id={id}>
       <h4>BACKGROUND</h4>
       <p id='background-description'>
         <div id='first-description'>

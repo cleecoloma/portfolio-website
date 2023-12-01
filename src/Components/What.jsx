@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import BuildIcon from '@mui/icons-material/Build';
 import './What.css';
 
-function What() {
+function What({ id }) {
   return (
-    <div className='what-container'>
+    <div className='what-container' id={id}>
       <h4>WHAT I DO</h4>
       <div id='what-text'>
         <p id='what-description'>
@@ -82,7 +82,7 @@ function What() {
           </Row>
         </Container>
       </div>
-      <img src='../../images/lawn.jpg' alt='lawn' id='lawn-img' />
+      <img src='../../images/lawn.jpg' alt='skills' />
       <div id='icon-container'>
         <BuildIcon id='build-icon' />
       </div>

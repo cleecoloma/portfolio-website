@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 424px) {
   .what-container h4 {
     padding: 4rem 1.5rem 1rem;
     font-weight: 700;
@@ -36,6 +36,10 @@
     margin: 0 1rem;
     color: darkslategrey;
   }
+
+  .what-container img {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 834px) {
@@ -63,6 +67,10 @@
   }
 
   #icon-container {
+    display: none;
+  }
+
+  .what-container img {
     display: none;
   }
 }
