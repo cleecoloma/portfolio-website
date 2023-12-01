@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
   .background-container h4 {
     padding: 4rem 1.5rem 1rem;
     font-weight: 700;

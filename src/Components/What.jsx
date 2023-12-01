@@ -82,7 +82,7 @@ function What() {
           </Row>
         </Container>
       </div>
-      <img src='../../images/lawn.jpg' alt='lawn' id='lawn-img' />
+      <img src='../../images/lawn.jpg' alt='skills' />
       <div id='icon-container'>
         <BuildIcon id='build-icon' />
       </div>
