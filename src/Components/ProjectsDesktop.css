@@ -1,60 +1,60 @@
-.projects-container h4 {
+.projects-desktop-container h4 {
   display: none;
 }
 
-.projects-container {
+.projects-desktop-container {
   padding: 6rem 5rem;
 }
 
-.projects-card {
+.projects-desktop-card {
   margin: 0 4rem 2rem;
   display: flex;
 }
 
-.card-img {
+.projects-desktop-card img {
   display: flex;
   width: 60%;
   margin: 1rem 3rem;
   flex-direction: row;
 }
 
-.card-right {
+.card-desktop-right {
   display: flex;
   flex-direction: column;
   justify-content: start;
   margin: 1rem 5rem 1rem 0;
 }
 
-.card-header {
+.card-desktop-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#card-title {
+#card-desktop-title {
   font-size: 155%;
   font-weight: 700;
 }
 
-.card-links button:nth-child(2) {
+.card-desktop-links button:nth-child(2) {
   margin: 0 1rem;
 }
 
-#card-text {
+#card-desktop-text {
   font-size: 120%;
   margin: 1rem 0;
 }
 
-.card-skills button {
+.card-desktop-skills button {
   margin-left: 1rem;
   font-size: 70%;
 }
 
-.card-skills button:first-child {
+.card-desktop-skills button:first-child {
   margin-left: 0;
 }
 
-#see-more-button {
+#desktop-see-more-button {
   width: 35%;
   height: 3rem;
   display: flex;
