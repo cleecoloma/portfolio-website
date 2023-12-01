@@ -145,7 +145,7 @@
     font-size: 230%;
     margin: 0 10rem;
     max-width: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
   }
 
   #button-container {
@@ -169,6 +169,54 @@
   }
 
   #menu-icon-div {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 835px) {
+  .hero-container {
+    display: flex;
+    padding: 8rem 0;
+  }
+
+  .left-div,
+  .right-div {
+    width: 48%;
+  }
+
+  .right-div {
+    order: -1;
+  }
+
+  .hero-container h1 {
+    margin-top: 3rem;
+    font-size: 280%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 700;
+  }
+
+  .hero-container img {
+    width: 420px;
+  }
+
+  #hero-message {
+    margin: 2rem 2rem 0;
+    font-size: 400%;
+    font-weight: 300;
+  }
+
+  #hero-message strong {
+    font-weight: 700;
+  }
+
+  #menu-icon-div {
+    display: none;
+  }
+
+  .hero-container hr {
     display: none;
   }
 }
