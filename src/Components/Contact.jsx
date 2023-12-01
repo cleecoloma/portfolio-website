@@ -9,23 +9,31 @@ function Contact() {
   return (
     <div className='contact-container'>
       <h4>CONTACT</h4>
-      <p id='contact-description'>Together, let's bring ideas to life.</p>
-      <div className='form-container'>
-        <Form>
-          <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
-            <Form.Label>Name</Form.Label>
-            <Form.Control type='text' placeholder='Name' />
-          </Form.Group>
-          <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type='email' placeholder='Name@example.com' />
-          </Form.Group>
-          <Form.Group className='mb-3' controlId='exampleForm.ControlTextarea1'>
-            <Form.Label>Message</Form.Label>
-            <Form.Control as='textarea' rows={5} placeholder='Say hello' />
-          </Form.Group>
-        </Form>
-        <Button variant='outline-success'>Send Message</Button>
+      <div className='contact-body'>
+        <div className='contact-left'>
+          <p id='contact-description'>Together, let's bring ideas to life.</p>
+          <img src='../../images/lawn.jpg' alt='contact' id='contact-img' />
+        </div>
+        <div className='form-container'>
+          <Form>
+            <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
+              <Form.Label>Name</Form.Label>
+              <Form.Control type='text' placeholder='Name' />
+            </Form.Group>
+            <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type='email' placeholder='Name@example.com' />
+            </Form.Group>
+            <Form.Group
+              className='mb-3'
+              controlId='exampleForm.ControlTextarea1'
+            >
+              <Form.Label>Message</Form.Label>
+              <Form.Control as='textarea' rows={5} placeholder='Say hello' />
+            </Form.Group>
+          </Form>
+          <Button variant='outline-success'>Send Message</Button>
+        </div>
       </div>
       <div id='link-container'>
         <a

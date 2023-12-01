@@ -1,11 +1,11 @@
-@media only screen and (max-width: 390px) {
-  .projects-container h4 {
-    padding: 4rem 1.5rem 1rem;
-    font-weight: 700;
-    text-decoration: underline;
-    color: #0f8064;
-  }
+.projects-container h4 {
+  padding: 4rem 1.5rem 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0f8064;
+}
 
+@media only screen and (max-width: 390px) {
   .projects-card {
     margin: 0 0.5rem 2rem;
   }

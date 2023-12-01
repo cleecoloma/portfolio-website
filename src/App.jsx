@@ -1,20 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Background from './Components/Background';
 import What from './Components/What'
 import Projects from './Components/Projects';
+import ProjectsDesktop from './Components/ProjectsDesktop';
 import Contact from './Components/Contact';
 import './App.css';
 
 function App() {
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isDesktopQuery = window.matchMedia('(min-width: 835px)').matches;
+      setIsDesktop(isDesktopQuery);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  });
+  
   return (
     <>
       <Header />
       <Hero />
       <Background />
       <What />
-      <Projects />
+      {isDesktop ? <ProjectsDesktop /> : <Projects />}
       <Contact />
     </>
   );
