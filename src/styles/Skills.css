@@ -1,17 +1,48 @@
-.what-container {
-  background-color: #e5e5e5;
-  min-height: 100vh;
+.skills-container {
+  padding: 5rem 0;
+  color: #414141;
 }
 
-@media only screen and (max-width: 424px) {
-  .what-container h4 {
+.skills-container h3 {
+  margin: 2rem 0;
+}
+
+#skills-description {
+  width: 80%;
+  font-size: 220%;
+  margin: 0 auto 2rem;
+}
+
+#skills {
+  width: 60%;
+}
+
+#tool-container div {
+  /* padding: 0 7rem; */
+  font-size: 110%;
+}
+
+.skills-container img {
+  padding: 1rem;
+  width: 40%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+#icon-container {
+  display: none;
+}
+
+
+/* @media only screen and (max-width: 424px) {
+  .skills-container h4 {
     padding: 4rem 1.5rem 1rem;
     font-weight: 700;
     text-decoration: underline;
     color: #0f8064;
   }
 
-  #what-description {
+  #skills-description {
     padding: 0 2rem;
   }
 
@@ -37,17 +68,17 @@
     color: darkslategrey;
   }
 
-  .what-container img {
+  .skills-container img {
     display: none;
   }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 834px) {
-  .what-container h4 {
+  .skills-container h4 {
     display: none;
   }
 
-  .what-container {
+  .skills-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +86,7 @@
     padding: 3rem 0;
   }
 
-  #what-description {
+  #skills-description {
     width: 60%;
     text-align: center;
     font-size: 170%;
@@ -70,31 +101,31 @@
     display: none;
   }
 
-  .what-container img {
+  .skills-container img {
     display: none;
   }
 }
 
 @media only screen and (min-width: 835px) {
-  .what-container h4 {
+  .skills-container h4 {
     display: none;
   }
 
-  .what-container {
+  .skills-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 6rem 3rem;
   }
 
-  #what-description {
+  #skills-description {
     width: 80%;
     text-align: center;
     font-size: 220%;
     margin: 0 auto 2rem;
   }
 
-  #what-text {
+  #skills-text {
     width: 60%;
   }
 
@@ -103,7 +134,7 @@
     font-size: 110%;
   }
 
-  .what-container img {
+  .skills-container img {
     padding: 1rem;
     width: 40%;
     object-fit: contain;
@@ -113,4 +144,4 @@
   #icon-container {
     display: none;
   }
-}
+} */

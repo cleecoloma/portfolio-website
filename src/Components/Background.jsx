@@ -2,7 +2,7 @@ import React from 'react';
 import SettingsIcon from '@mui/icons-material/Settings';
 import ForwardIcon from '@mui/icons-material/Forward';
 import CodeIcon from '@mui/icons-material/Code';
-// import './Background.css';
+import '../styles/Background.css';
 
 function Background({ id }) {
   return (

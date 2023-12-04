@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Background from './Components/Background';
-import What from './Components/What';
+import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import ProjectsDesktop from './Components/ProjectsDesktop';
 import Contact from './Components/Contact';
@@ -35,7 +35,7 @@ function App() {
       {showHeader && <Header />}
       <Hero id='home' />
       <Background id='background' />
-      <What id='skills' />
+      <Skills id='skills' />
       {isDesktop ? (
         <ProjectsDesktop id='projects' />
       ) : (

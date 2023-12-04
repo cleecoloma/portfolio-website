@@ -41,12 +41,10 @@
 
 #hero-message strong {
   font-weight: 700;
-  color: black;
 }
 
 #hero-message-span {
   text-decoration: underline;
-  color: black;
 }
 
 .left-div,
