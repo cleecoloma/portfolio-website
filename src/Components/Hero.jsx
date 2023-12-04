@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
-import './Hero.css';
+import '../styles/Hero.css';
 
 function Hero({ id }) {
   return (

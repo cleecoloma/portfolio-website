@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Background from './Components/Background';
-import What from './Components/What';
+import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import ProjectsDesktop from './Components/ProjectsDesktop';
 import Contact from './Components/Contact';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -31,18 +31,18 @@ function App() {
   });
 
   return (
-    <>
+    <div className='content'>
       {showHeader && <Header />}
       <Hero id='home' />
       <Background id='background' />
-      <What id='skills' />
+      <Skills id='skills' />
       {isDesktop ? (
         <ProjectsDesktop id='projects' />
       ) : (
         <Projects id='projects' />
       )}
       <Contact id='contact' />
-    </>
+    </div>
   );
 }
 

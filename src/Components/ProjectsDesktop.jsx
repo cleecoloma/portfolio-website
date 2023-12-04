@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import './ProjectsDesktop.css';
+// import './ProjectsDesktop.css';
 
 function ProjectsDesktop({ id }) {
   return (
