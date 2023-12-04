@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-// import './ProjectsDesktop.css';
+import '../styles/ProjectsDesktop.css';
 
 function ProjectsDesktop({ id }) {
   return (
     <div className='projects-desktop-container' id={id}>
-      <h4>FEATURED PROJECTS</h4>
+      <h3>FEATURED PROJECTS</h3>
       <div className='projects-desktop-card'>
         <img src='../../public/images/job-application-tracker.png' />
         <div className='card-desktop-right'>
@@ -78,7 +78,7 @@ function ProjectsDesktop({ id }) {
           </div>
         </div>
       </div>
-      <Button variant='success' id='desktop-see-more-button'>
+      <Button id='desktop-see-more-button'>
         SEE MORE PROJECTS
       </Button>
     </div>
