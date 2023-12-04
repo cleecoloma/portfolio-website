@@ -2,12 +2,7 @@
   display: none;
 }
 
-.projects-desktop-container {
-  padding: 6rem 5rem;
-}
-
 .projects-desktop-card {
-  margin: 0 4rem 2rem;
   display: flex;
 }
 
