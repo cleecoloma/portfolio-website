@@ -78,7 +78,7 @@ function ProjectsDesktop({ id }) {
           </div>
         </div>
       </div>
-      <Button variant='success' id='desktop-see-more-button'>
+      <Button id='desktop-see-more-button'>
         SEE MORE PROJECTS
       </Button>
     </div>
