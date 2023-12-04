@@ -1,0 +1,8 @@
+#header-navbar {
+  position: fixed;
+  margin: 0 auto;
+  width: 1200px;
+  z-index: 9001;
+  background-color: white;
+  color: black;
+}

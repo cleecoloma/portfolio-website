@@ -1,0 +1,242 @@
+.background-container {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 424px) {
+  .background-container h4 {
+    padding: 4rem 1.5rem 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #0f8064;
+  }
+
+  #background-description {
+    padding: 0 2rem;
+  }
+
+  #icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  #arrow-icon {
+    font-size: 36px;
+    color: gray;
+  }
+
+  #gear-icon {
+    font-size: 64px;
+    margin: 0 1rem;
+    color: darkslategrey;
+  }
+
+  #code-icon {
+    font-size: 88px;
+    margin: 0 1rem;
+    color: darkolivegreen;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 834px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+  }
+
+  #background-description {
+    width: 70%;
+    text-align: center;
+    font-size: 115%;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 350px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+  }
+
+  #second-description div {
+    padding: 1rem;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 250px;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (min-width: 835px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    display: flex;
+    font-size: 100%;
+    margin: 0 3rem;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 300px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+    font-size: 90%;
+    margin: 3rem 6rem 0;
+  }
+
+  #second-description div {
+    width: 60%;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 250px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    display: flex;
+    font-size: 110%;
+    margin: 0 3rem;
+  }
+
+  #first-description img {
+    margin: 1rem auto 0;
+    padding: 1rem;
+    width: 420px;
+    object-fit: contain;
+  }
+
+  #second-description {
+    display: flex;
+    font-size: 100%;
+    margin: 3rem 6rem 0;
+  }
+
+  #second-description div {
+    width: 60%;
+  }
+
+  #second-description img {
+    padding: 1rem;
+    width: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .background-container h4 {
+    display: none;
+  }
+
+  .background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #background-description {
+    text-align: center;
+    font-size: 115%;
+    margin: 0 5rem;
+  }
+
+  #icon-container {
+    display: none;
+  }
+
+  #first-description div {
+    width: 60%;
+  }
+
+  #first-description {
+    font-size: 150%;
+  }
+
+  #first-description img {
+    width: 550px;
+  }
+
+  #second-description {
+    font-size: 140%;
+  }
+
+  #second-description img {
+    width: 450px;
+  }
+}

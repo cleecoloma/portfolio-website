@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+.hero-container {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container img {
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: rgba(116, 26, 26, 0.35) 0px 5px 15px;
+  width: 380px;
+}
+
+.hero-container h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 3rem;
+  font-size: 280%;
+  font-weight: 400;
+}
+
+.hero-container h1 span {
+  color: #0f8064;
+  font-weight: 700;
+}
+
+.hero-container h3 {
+  font-size: 150%;
+  color: #414141;
+}
+
+#hero-message {
+  margin: 2rem 0 0;
+  font-size: 380%;
+  font-weight: 300;
+  color: #414141;
+}
+
+#hero-message strong {
+  font-weight: 700;
+  color: black;
+}
+
+#hero-message-span {
+  text-decoration: underline;
+  color: black;
+}
+
+.left-div,
+.right-div {
+  width: 45%;
+}
+
+.right-div {
+  order: -1;
+}
+
+#menu-icon-div {
+  display: none;
+}
+
+.hero-container hr {
+  display: none;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-button {
+  background-color: #0F8064;
+  margin: 5rem 1rem 0;
+  font-weight: 700;
+  font-size: 120%;
+  width: 22rem;
+}
+
+#contact-button {
+  color: #0F8064;
+  margin: 2rem 1rem;
+  font-weight: 700;
+  font-size: 120%;
+  width: 22rem;
+  background-color: white;
+  border-width: 2px;
+  border-color: #0F8064;
+}
+
+/* @media only screen and (min-width: 425px) and (max-width: 834px) {
+  .hero-container {
+    padding-top: 5.5rem;
+    min-height: 100vh - 3.5rem;
+  }
+
+  .hero-container img {
+    width: 320px;
+  }
+
+  .hero-container h1 {
+    margin-top: 2rem;
+    font-size: 170%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 900;
+  }
+
+  .hero-container h3 {
+    font-size: 110%;
+  }
+
+  .hero-container hr {
+    margin: 2rem auto;
+    width: 70%;
+  }
+
+  #hero-message {
+    text-align: center;
+    font-size: 230%;
+    margin: 0 10rem;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 15rem;
+  }
+
+  #contact-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 15rem;
+    background-color: white;
+  }
+
+  #menu-icon-div {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 835px) {
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+  }
+
+  .left-div, .right-div {
+    width: 45%;
+  }
+
+  .right-div {
+    order: -1;
+  }
+
+  .hero-container h1 {
+    margin-top: 3rem;
+    font-size: 160%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 700;
+  }
+
+  .hero-container h3 {
+    font-size: 110%;
+  }
+
+  .hero-container img {
+    width: 270px;
+  }
+
+  #hero-message {
+    margin: 2rem 2rem 0;
+    font-size: 220%;
+    font-weight: 300;
+  }
+
+  #hero-message strong {
+    font-weight: 700;
+  }
+
+  #menu-icon-div {
+    display: none;
+  }
+
+  .hero-container hr {
+    display: none;
+  }
+
+  #button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-button {
+    margin: 5rem 1rem 0;
+    font-weight: 700;
+    font-size: 120%;
+    width: 18rem;
+  }
+
+  #contact-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 18rem;
+    background-color: white;
+  }
+}
+
+@media only screen and (min-width: 1120px) {
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+  }
+
+  .left-div, .right-div {
+    width: 45%;
+  }
+
+  .right-div {
+    order: -1;
+  }
+
+  .hero-container h1 {
+    margin-top: 3rem;
+    font-size: 220%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 700;
+  }
+
+  .hero-container h3 {
+    font-size: 120%;
+  }
+
+  .hero-container img {
+    width: 330px;
+  }
+
+  #hero-message {
+    margin: 2rem 2rem 0;
+    font-size: 300%;
+    font-weight: 300;
+  }
+
+  #hero-message strong {
+    font-weight: 700;
+  }
+
+  #menu-icon-div {
+    display: none;
+  }
+
+  .hero-container hr {
+    display: none;
+  }
+
+  #button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-button {
+    margin: 5rem 1rem 0;
+    font-weight: 700;
+    font-size: 120%;
+    width: 20rem;
+  }
+
+  #contact-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 20rem;
+    background-color: white;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+  }
+
+  .left-div, .right-div {
+    width: 45%;
+  }
+
+  .right-div {
+    order: -1;
+  }
+
+  .hero-container h1 {
+    margin-top: 3rem;
+    font-size: 280%;
+    font-weight: 400;
+  }
+
+  .hero-container h1 span {
+    font-weight: 700;
+  }
+
+  .hero-container h3 {
+    font-size: 140%;
+  }
+
+  .hero-container img {
+    width: 380px;
+  }
+
+  #hero-message {
+    margin: 2rem 2rem 0;
+    font-size: 380%;
+    font-weight: 300;
+  }
+
+  #hero-message strong {
+    font-weight: 700;
+  }
+
+  #menu-icon-div {
+    display: none;
+  }
+
+  .hero-container hr {
+    display: none;
+  }
+
+  #button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-button {
+    margin: 5rem 1rem 0;
+    font-weight: 700;
+    font-size: 120%;
+    width: 22rem;
+  }
+
+  #contact-button {
+    margin: 2rem 1rem;
+    font-weight: 700;
+    font-size: 120%;
+    width: 22rem;
+    background-color: white;
+  }
+} */

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import BuildIcon from '@mui/icons-material/Build';
-import './What.css';
+// import './What.css';
 
 function What({ id }) {
   return (
