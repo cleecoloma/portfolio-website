@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.hero-container img {
+#hero-img {
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: rgba(116, 26, 26, 0.35) 0px 5px 15px;
@@ -129,6 +129,52 @@
   #contact-button {
     font-size: 115%;
     width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1000px) {
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left-div,
+  .right-div {
+    width: 100%;
+  }
+
+  .right-div {
+    order: 1;
+  }
+
+  .left-div {
+    padding: 8rem 1rem 0;
+  }
+
+  .right-div {
+    padding: 0 1rem;
+  }
+
+  .hero-container h1 {
+    font-size: 230%;
+  }
+
+  .hero-container h3 {
+    font-size: 130%;
+  }
+
+  #hero-message {
+    font-size: 300%;
+    padding: 0 10rem;
+  }
+
+  #button-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #project-button, #contact-button {
+    margin: 3rem 2rem 0;
   }
 }
 

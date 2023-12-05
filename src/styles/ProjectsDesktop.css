@@ -17,6 +17,7 @@
 #projects-desktop-card-img {
   width: 60%;
   margin: 1rem 3rem;
+  object-fit: contain;
 }
 
 .card-desktop-right {
@@ -110,5 +111,24 @@
 
   #desktop-see-more-button {
     width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1000px) {
+  #projects-desktop-card-img {
+    width: 60%;
+    margin: 1rem 0.5rem;
+  }
+
+  .card-desktop-right {
+    margin-right: 0.5rem;
+  }
+
+  #card-desktop-title {
+    font-size: 115%;
+  }
+
+  #card-desktop-text {
+    font-size: 95%;
   }
 }

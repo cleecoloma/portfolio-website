@@ -137,6 +137,27 @@
   }
 }
 
+@media only screen and (min-width: 834px) and (max-width: 1000px) {
+  .contact-body {
+    flex-direction: column;
+    padding: 2rem 3rem;
+    width: 100%;
+  }
+
+  #contact-description {
+    font-size: 190%;
+  }
+
+  #contact-img {
+    display: none;
+  }
+
+  .form-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 /* @media only screen and (max-width: 424px) {
   .contact-container h4 {
     padding: 4rem 2rem 1rem;
