@@ -10,7 +10,10 @@ function Header() {
   return (
     <Navbar id='header-navbar' fixed='top'>
       <Container>
-        <Navbar.Brand id='header-brand'>CC</Navbar.Brand>
+        <Navbar.Brand id='header-brand'>
+          <span id='first-c'>C</span>
+          <span id='second-c'>C</span>
+        </Navbar.Brand>
         <Nav className='me-auto' variant='underline'>
           <Nav.Link href='#home' className='header-links'>
             Home
