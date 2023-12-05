@@ -3,9 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f6f6;
-  border-radius: 2rem;
-  padding: 2rem 0;
+  padding: 5rem 0;
   color: #414141;
 }
 
@@ -20,10 +18,12 @@
 #background-description {
   text-align: center;
   font-size: 100%;
-  /* margin: 0 2rem; */
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 2rem;
+  padding: 2rem 0;
+  background-color: #f9f6f6;
 }
 
 #first-description {
