@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .hero-container {
   text-align: center;
@@ -74,28 +74,32 @@
 #project-button {
   background-color: #0F8064;
   margin: 5rem 1rem 0;
-  font-weight: 700;
   font-size: 120%;
   width: 22rem;
+  font-weight: 400;
+  text-transform: none;
 }
 
 #contact-button {
   color: #0F8064;
   margin: 2rem 1rem;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 120%;
   width: 22rem;
   background-color: white;
   border-width: 2px;
   border-color: #0F8064;
+  text-transform: none;
 }
 
 #project-button:hover {
+  font-weight: 500;
   background-color: #14876a;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 #contact-button:hover {
+  font-weight: 500;
   background-color: rgb(245, 245, 245);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
