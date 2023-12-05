@@ -79,7 +79,7 @@ function ProjectsDesktop({ id }) {
         </div>
       </div>
       <Button id='desktop-see-more-button'>
-        SEE MORE PROJECTS
+        See more projects
       </Button>
     </div>
   );

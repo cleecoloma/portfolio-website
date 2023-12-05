@@ -1,8 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 #header-navbar {
-  position: fixed;
   margin: 0 auto;
   width: 1300px;
   z-index: 9001;
   background-color: white;
   color: black;
+  letter-spacing: 2px;
+}
+
+#header-brand {
+  padding: 0.5rem 1rem 0;
+  letter-spacing: 3px;
+}
+
+#header-links {
+  margin: 0 0.5rem;
+}
+
+#first-c {
+  color: #0F8064;
+  font-weight: 700;
+  font-size: 200%;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#second-c {
+  color: #414141;
+  font-weight: 700;
+  font-size: 200%;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+@media only screen and (min-width: 1221px) and (max-width: 1440px) {
+  #header-navbar {
+  width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1220px) {
+  #header-navbar {
+  width: 950px;
+  }
 }

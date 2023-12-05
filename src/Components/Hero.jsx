@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
 import '../styles/Hero.css';
@@ -24,6 +24,7 @@ function Hero({ id }) {
             id='project-button'
             className='button-style'
             variant='contained'
+            href='#projects'
           >
             See my projects
           </Button>
@@ -31,6 +32,7 @@ function Hero({ id }) {
             id='contact-button'
             className='button-style'
             variant='outlined'
+            href='#contact'
           >
             Contact me
           </Button>

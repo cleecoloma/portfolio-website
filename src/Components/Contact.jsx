@@ -32,7 +32,7 @@ function Contact({ id }) {
               <Form.Control as='textarea' rows={5} placeholder='Say hello' />
             </Form.Group>
           </Form>
-          <Button variant='outline-success'>Send Message</Button>
+          <Button variant='outline-success' id='send-message-button'>Send message</Button>
         </div>
       </div>
       <div id='link-container'>
@@ -57,7 +57,7 @@ function Contact({ id }) {
           Designed and built by
           <br />
           <strong>
-            <span>CHESTER LEE</span> <span>COLOMA</span>
+            <span>Chester Lee</span> <span>Coloma</span>
           </strong>
           <br />
           2023
