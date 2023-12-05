@@ -39,6 +39,26 @@
   margin: 0 2rem;
 }
 
+@media only screen and (min-width: 1221px) and (max-width: 1440px) {
+  #first-description {
+    font-size: 140%;
+  }
+
+  #lawn-img {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1220px) {
+    #first-description {
+    font-size: 130%;
+  }
+
+  #lawn-img {
+    width: 420px;
+  }
+}
+
 /* @media only screen and (max-width: 424px) {
   .background-container h4 {
     padding: 4rem 1.5rem 1rem;
