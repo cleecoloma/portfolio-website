@@ -1,8 +1,15 @@
 #header-navbar {
-  position: fixed;
   margin: 0 auto;
   width: 1300px;
   z-index: 9001;
   background-color: white;
   color: black;
+}
+
+#header-brand {
+  padding: 0 1rem;
+}
+
+#header-links {
+  margin: 0 0.5rem;
 }
