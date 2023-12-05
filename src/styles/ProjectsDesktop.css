@@ -14,18 +14,16 @@
   display: flex;
 }
 
-.projects-desktop-card img {
-  display: flex;
+#projects-desktop-card-img {
   width: 60%;
   margin: 1rem 3rem;
-  flex-direction: row;
 }
 
 .card-desktop-right {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin: 1rem 5rem 1rem 0;
+  margin: 1rem 2rem 1rem 0;
 }
 
 .card-desktop-header {
@@ -71,4 +69,46 @@
   font-weight: 500;
   background-color: #14876a;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media only screen and (min-width: 1221px) and (max-width: 1440px) {
+  #projects-desktop-card-img {
+    width: 55%;
+    margin: 1rem 2rem;
+  }
+
+  .card-desktop-right {
+    margin-right: 2rem;
+  }
+
+  #card-desktop-title {
+    font-size: 145%;
+  }
+
+  #card-desktop-text {
+    font-size: 115%;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1220px) {
+  #projects-desktop-card-img {
+    width: 50%;
+    margin: 1rem 1rem;
+  }
+
+  .card-desktop-right {
+    margin-right: 1rem;
+  }
+
+  #card-desktop-title {
+    font-size: 130%;
+  }
+
+  #card-desktop-text {
+    font-size: 105%;
+  }
+
+  #desktop-see-more-button {
+    width: 18rem;
+  }
 }

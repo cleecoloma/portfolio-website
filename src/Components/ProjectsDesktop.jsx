@@ -7,7 +7,10 @@ function ProjectsDesktop({ id }) {
     <div className='projects-desktop-container' id={id}>
       <h3>FEATURED PROJECTS</h3>
       <div className='projects-desktop-card'>
-        <img src='../../public/images/job-application-tracker.png' />
+        <img
+          src='../../public/images/job-application-tracker.png'
+          id='projects-desktop-card-img'
+        />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
             <p id='card-desktop-title'>Job Application Tracker</p>
@@ -31,7 +34,10 @@ function ProjectsDesktop({ id }) {
         </div>
       </div>
       <div className='projects-desktop-card'>
-        <img src='../../public/images/job-application-tracker.png' />
+        <img
+          src='../../public/images/job-application-tracker.png'
+          id='projects-desktop-card-img'
+        />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
             <p id='card-desktop-title'>Job Application Tracker</p>
@@ -55,7 +61,10 @@ function ProjectsDesktop({ id }) {
         </div>
       </div>
       <div className='projects-desktop-card'>
-        <img src='../../public/images/job-application-tracker.png' />
+        <img
+          src='../../public/images/job-application-tracker.png'
+          id='projects-desktop-card-img'
+        />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
             <p id='card-desktop-title'>Job Application Tracker</p>
@@ -78,9 +87,7 @@ function ProjectsDesktop({ id }) {
           </div>
         </div>
       </div>
-      <Button id='desktop-see-more-button'>
-        See more projects
-      </Button>
+      <Button id='desktop-see-more-button'>See more projects</Button>
     </div>
   );
 }
