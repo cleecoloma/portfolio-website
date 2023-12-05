@@ -57,7 +57,7 @@ function Contact({ id }) {
           Designed and built by
           <br />
           <strong>
-            <span>CHESTER LEE</span> <span>COLOMA</span>
+            <span>Chester Lee</span> <span>Coloma</span>
           </strong>
           <br />
           2023
