@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/Header.css'
@@ -9,7 +8,6 @@ import '../styles/Header.css'
 function Header() {
   return (
     <Navbar id='header-navbar' fixed='top'>
-      <Container>
         <Navbar.Brand id='header-brand'>
           <span id='first-c'>C</span>
           <span id='second-c'>C</span>
@@ -31,7 +29,6 @@ function Header() {
             Contact
           </Nav.Link>
         </Nav>
-      </Container>
     </Navbar>
   );
 }
