@@ -4,7 +4,7 @@
   text-align: center;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -88,6 +88,16 @@
   background-color: white;
   border-width: 2px;
   border-color: #0F8064;
+}
+
+#project-button:hover {
+  background-color: #14876a;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#contact-button:hover {
+  background-color: rgb(245, 245, 245);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 /* @media only screen and (min-width: 425px) and (max-width: 834px) {
