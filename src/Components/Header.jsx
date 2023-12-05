@@ -12,7 +12,7 @@ function Header() {
         <span id='first-c'>C</span>
         <span id='second-c'>C</span>
       </Navbar.Brand>
-        <Nav className='me-auto' variant='underline'>
+        <Nav className='me-auto' variant='underline' id='navbar-links'>
           <Nav.Link href='#home' className='header-links'>
             Home
           </Nav.Link>

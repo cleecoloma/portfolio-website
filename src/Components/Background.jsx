@@ -8,7 +8,7 @@ function Background({ id }) {
   return (
     <div className='background-container' id={id}>
       <h4>BACKGROUND</h4>
-      <p id='background-description'>
+      <div id='background-description'>
         <div id='first-description'>
           Former <strong>mechanical engineer</strong> with an active secret
           clearance and{' '}
@@ -24,7 +24,7 @@ function Background({ id }) {
           neighborhood. It's my little green oasis project beyond the keyboard.
         </div>
         <img src='../../images/lawn.jpg' alt='lawn' id='lawn-img' />
-      </p>
+      </div>
       <div id='icon-container'>
         <SettingsIcon id='gear-icon' />
         <ForwardIcon id='arrow-icon' />

@@ -19,7 +19,7 @@
 }
 
 #first-c {
-  color: #0F8064;
+  color: #0f8064;
   font-weight: 700;
   font-size: 200%;
   font-family: 'Luckiest Guy', cursive;
@@ -34,24 +34,34 @@
 
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {
   #header-navbar {
-  width: 1200px;
+    width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
   #header-navbar {
-  width: 950px;
+    width: 950px;
   }
 }
 
 @media only screen and (min-width: 834px) and (max-width: 1000px) {
   #header-navbar {
-  width: 800px;
+    width: 800px;
   }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 833px) {
   #header-navbar {
-  width: 680px;
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #header-navbar {
+    width: 100%;
+  }
+
+  #navbar-links {
+    display: none;
   }
 }
