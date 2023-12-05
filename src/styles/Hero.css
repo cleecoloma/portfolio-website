@@ -132,7 +132,7 @@
   }
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1000px) {
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
   .hero-container {
     flex-direction: column;
     justify-content: center;
@@ -173,8 +173,16 @@
     justify-content: space-evenly;
   }
 
-  #project-button, #contact-button {
+  #project-button,
+  #contact-button {
     margin: 3rem 2rem 0;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 833px) {
+  #hero-message {
+    font-size: 280%;
+    padding: 0 8rem;
   }
 }
 

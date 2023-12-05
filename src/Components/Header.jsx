@@ -3,15 +3,15 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import '../styles/Header.css'
+import '../styles/Header.css';
 
 function Header() {
   return (
     <Navbar id='header-navbar' fixed='top'>
-        <Navbar.Brand id='header-brand'>
-          <span id='first-c'>C</span>
-          <span id='second-c'>C</span>
-        </Navbar.Brand>
+      <Navbar.Brand id='header-brand'>
+        <span id='first-c'>C</span>
+        <span id='second-c'>C</span>
+      </Navbar.Brand>
         <Nav className='me-auto' variant='underline'>
           <Nav.Link href='#home' className='header-links'>
             Home
@@ -33,4 +33,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;

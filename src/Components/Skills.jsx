@@ -6,7 +6,7 @@ import '../styles/Skills.css';
 function Skills({ id }) {
   return (
     <div className='skills-container' id={id}>
-      <h3>SKILLS</h3>
+      <h4>SKILLS</h4>
       <div class='skills'>
         <p>LANGUAGES</p>
         <ul>

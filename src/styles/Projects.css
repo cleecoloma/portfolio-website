@@ -1,11 +1,13 @@
+/* 
 .projects-container h4 {
   padding: 4rem 1.5rem 1rem;
   font-weight: 700;
   text-decoration: underline;
   color: #0f8064;
-}
+  display: none;
+} */
 
-@media only screen and (max-width: 424px) {
+/* @media only screen and (max-width: 424px) {
   .projects-card {
     margin: 0 0.5rem 2rem;
   }
@@ -37,11 +39,14 @@
     align-items: center;
     margin: 0 auto 4rem;
   }
-}
+} */
 
 @media only screen and (min-width: 425px) and (max-width: 834px) {
   .projects-container h4 {
-    display: none;
+    padding: 0 1.5rem 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #0f8064;
   }
 
   .projects-container {

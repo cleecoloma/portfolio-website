@@ -1,8 +1,4 @@
 .background-container {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 5rem 0;
   color: #414141;
 }
@@ -59,7 +55,7 @@
   }
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1000px) {
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
   #background-description {
     flex-direction: column;
   }
@@ -71,6 +67,28 @@
   #lawn-img {
     margin-top: 2rem;
     width: 420px;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 833px) {
+  .background-container {
+    flex-direction: column;
+  }
+
+  .background-container h4 {
+    display: block;
+    padding: 0 1.5rem 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #0f8064;
+  }
+
+  #first-description {
+    font-size: 120%;
+  }
+
+  #lawn-img {
+    width: 400px;
   }
 }
 

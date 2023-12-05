@@ -137,7 +137,7 @@
   }
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1000px) {
+@media only screen and (min-width: 425px) and (max-width: 1000px) {
   .contact-body {
     flex-direction: column;
     padding: 2rem 3rem;
@@ -156,6 +156,25 @@
     width: 100%;
     margin: 0;
   }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 834px) {
+  .contact-container {
+    display: inline;
+  }
+
+  .contact-container h4 {
+    display: block;
+    padding: 0 2rem 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #0f8064;
+  }
+
+  #link-container {
+    margin: 2rem auto 0;
+  }
+
 }
 
 /* @media only screen and (max-width: 424px) {

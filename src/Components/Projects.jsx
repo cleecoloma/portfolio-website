@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// import './Projects.css';
+import '../styles/Projects.css';
 
 function Projects({ id }) {
   return (
@@ -38,8 +38,10 @@ function Projects({ id }) {
         <Card.Body>
           <div className='card-header'>
             <Card.Title id='card-title'>Job Application Tracker</Card.Title>
-            <Button variant='primary'>DEMO</Button>
-            <Button variant='primary'>CODE</Button>
+            <div>
+              <Button variant='primary'>DEMO</Button>
+              <Button variant='primary'>CODE</Button>
+            </div>
           </div>
           <Card.Text id='card-text'>
             A mobile-responsive job application tracker web application using
