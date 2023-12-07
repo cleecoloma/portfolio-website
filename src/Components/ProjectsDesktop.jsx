@@ -1,27 +1,25 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import '../styles/ProjectsDesktop.css';
-import '../data/data.json';
+import data from '../data/data.json';
 
 function ProjectsDesktop({ id }) {
+  const projects = data.projects.slice(0, 3);
+
   return (
     <div className='projects-desktop-container' id={id}>
       <h3>FEATURED PROJECTS</h3>
-      <div className='projects-desktop-card'>
-        <img src='../../public/images/job-application-tracker.png' />
+      {projects.map(project => (<div key={project.id} className='projects-desktop-card'>
+        <img src={'/images/' + project.image} />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
-            <p id='card-desktop-title'>Job Application Tracker</p>
+            <p id='card-desktop-title'>{project.displayName}</p>
           </div>
           <div className='card-desktop-links'>
             <Button variant='primary'>DEMO</Button>
             <Button variant='primary'>CODE</Button>
           </div>
-          <div id='card-desktop-text'>
-            A mobile-responsive job application tracker web application using
-            the MERN (MongoDB, Express, React, Node) stack, enabling users to
-            seamlessly create, manage, and track job listings across four
-            categories (Interested, Applied, Interview, Rejected).
+          <div id='card-desktop-text'>{project.description}
           </div>
           <div className='card-desktop-skills'>
             <Button variant='primary'>TOOLS</Button>
@@ -30,55 +28,7 @@ function ProjectsDesktop({ id }) {
             <Button variant='primary'>TOOLS</Button>
           </div>
         </div>
-      </div>
-      <div className='projects-desktop-card'>
-        <img src='../../public/images/job-application-tracker.png' />
-        <div className='card-desktop-right'>
-          <div className='card-desktop-header'>
-            <p id='card-desktop-title'>Job Application Tracker</p>
-          </div>
-          <div className='card-desktop-links'>
-            <Button variant='primary'>DEMO</Button>
-            <Button variant='primary'>CODE</Button>
-          </div>
-          <div id='card-desktop-text'>
-            A mobile-responsive job application tracker web application using
-            the MERN (MongoDB, Express, React, Node) stack, enabling users to
-            seamlessly create, manage, and track job listings across four
-            categories (Interested, Applied, Interview, Rejected).
-          </div>
-          <div className='card-desktop-skills'>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-          </div>
-        </div>
-      </div>
-      <div className='projects-desktop-card'>
-        <img src='../../public/images/job-application-tracker.png' />
-        <div className='card-desktop-right'>
-          <div className='card-desktop-header'>
-            <p id='card-desktop-title'>Job Application Tracker</p>
-          </div>
-          <div className='card-desktop-links'>
-            <Button variant='primary'>DEMO</Button>
-            <Button variant='primary'>CODE</Button>
-          </div>
-          <div id='card-desktop-text'>
-            A mobile-responsive job application tracker web application using
-            the MERN (MongoDB, Express, React, Node) stack, enabling users to
-            seamlessly create, manage, and track job listings across four
-            categories (Interested, Applied, Interview, Rejected).
-          </div>
-          <div className='card-desktop-skills'>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-          </div>
-        </div>
-      </div>
+      </div>))}
       <Button id='desktop-see-more-button'>
         See more projects
       </Button>
