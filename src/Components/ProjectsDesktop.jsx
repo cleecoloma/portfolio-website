@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import '../styles/ProjectsDesktop.css';
+import '../data/data.json';
 
 function ProjectsDesktop({ id }) {
   return (

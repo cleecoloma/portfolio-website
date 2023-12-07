@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Lost Hub",
+      "github": "https://github.com/lost-hub-app",
+      "live-link": "https://lost-hub-app.netlify.app/",
+      "description": "The Lost Hub application streamlines reporting and finding lost items, offering a user-friendly platform to report and retrieve belongings efficiently. It addresses the inconvenience of traditional lost and found systems by providing a centralized digital solution",
+      "tech-stack": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node",
+        "Auth0",
+        "Google Cloud Storage",
+        "Google Maps API"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Job Application Tracker",
+      "github": "https://github.com/cleecoloma/job-application-tracker",
+      "live-link": "https://job-application-tracker-app.netlify.app/",
+      "description": "A mobile-responsive job application tracker web application using the MERN (MongoDB, Express, React, Node) stack, enabling users to seamlessly create, manage, and track job listings across four categories (Interested, Applied, Interview, Rejected).",
+      "tech-stack": ["MongoDB", "Express", "React", "Node", "Auth0"]
+    },
+    {
+      "id": 3,
+      "name": "CookBot AI",
+      "github": "https://github.com/cleecoloma/cookbot-ai-app",
+      "live-link": "https://cookbot-ai-app.netlify.app/",
+      "description": "CookBot is a full-stack app using OpenAI's API to create recipe cards from user-input ingredients, allowing saving to profiles. Users provide ingredient lists, and OpenAI queries and displays results in a customizable modal.",
+      "tech-stack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI"]
+    },
+    {
+      "id": 4,
+      "name": "Quizzard Wizzard",
+      "github": "https://github.com/Code-Fellow-Quizzards/quizzard-wizard",
+      "live-link": "https://code-fellow-quizzards.github.io/quizzard-wizard/",
+      "description": "The Quizzard Wizard is a fun and engaging web application that challenges users with a wide range of exciting quizzes on various topics. Players can test their knowledge, compete with friends, and unlock achievements as they progress through levels.",
+      "tech-stack": ["JavaScript", "HTML", "CSS", "Trivia API"]
+    }
+  ]
+}
