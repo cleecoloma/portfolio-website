@@ -5,9 +5,9 @@
       "displayName": "Lost Hub",
       "name": "lost-hub",
       "github": "https://github.com/lost-hub-app",
-      "live-link": "https://lost-hub-app.netlify.app/",
+      "liveLink": "https://lost-hub-app.netlify.app/",
       "description": "The Lost Hub application streamlines reporting and finding lost items, offering a user-friendly platform to report and retrieve belongings efficiently. It addresses the inconvenience of traditional lost and found systems by providing a centralized digital solution",
-      "tech-stack": [
+      "techStack": [
         "MongoDB",
         "Express",
         "React",
@@ -22,45 +22,45 @@
       "displayName": "Job Application Tracker",
       "name": "job-application-tracker",
       "github": "https://github.com/cleecoloma/job-application-tracker",
-      "live-link": "https://job-application-tracker-app.netlify.app/",
+      "liveLink": "https://job-application-tracker-app.netlify.app/",
       "description": "A mobile-responsive job application tracker web application using the MERN (MongoDB, Express, React, Node) stack, enabling users to seamlessly create, manage, and track job listings across four categories (Interested, Applied, Interview, Rejected).",
-      "tech-stack": ["MongoDB", "Express", "React", "Node", "Auth0"]
+      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0"]
     },
     {
       "id": 3,
       "displayName": "CookBot AI",
       "name": "lost-hub",
       "github": "https://github.com/cleecoloma/cookbot-ai-app",
-      "live-link": "https://cookbot-ai-app.netlify.app/",
+      "liveLink": "https://cookbot-ai-app.netlify.app/",
       "description": "CookBot is a full-stack app using OpenAI's API to create recipe cards from user-input ingredients, allowing saving to profiles. Users provide ingredient lists, and OpenAI queries and displays results in a customizable modal.",
-      "tech-stack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI"]
+      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI"]
     },
     {
       "id": 4,
       "displayName": "Quizzard Wizzard",
       "name": "quizzard-qizzard",
       "github": "https://github.com/Code-Fellow-Quizzards/quizzard-wizard",
-      "live-link": "https://code-fellow-quizzards.github.io/quizzard-wizard/",
+      "liveLink": "https://code-fellow-quizzards.github.io/quizzard-wizard/",
       "description": "The Quizzard Wizard is a fun and engaging web application that challenges users with a wide range of exciting quizzes on various topics. Players can test their knowledge, compete with friends, and unlock achievements as they progress through levels.",
-      "tech-stack": ["JavaScript", "HTML", "CSS", "Trivia API"]
+      "techStack": ["JavaScript", "HTML", "CSS", "Trivia API"]
     },
     {
       "id": 5,
       "displayName": "Lawn Company",
       "name": "lawn-company",
       "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
-      "live-link": "https://cleecoloma.github.io/landscaping-company/",
+      "liveLink": "https://cleecoloma.github.io/landscaping-company/",
       "description": "This landing page for a chocolate pizza recipe. It was created from a basic wireframe and design template. Images were provided; however, icons and fonts were at the developer's discretion.",
-      "tech-stack": ["JavaScript", "HTML", "CSS"]
+      "techStack": ["JavaScript", "HTML", "CSS"]
     },
     {
       "id": 6,
       "displayName": "Chocolate Pizza",
       "name": "chocolate-pizza",
       "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
-      "live-link": "https://cleecoloma.github.io/chocolate-pizza-landing-page/",
+      "liveLink": "https://cleecoloma.github.io/chocolate-pizza-landing-page/",
       "description": "This landing page for a chocolate pizza recipe. It was created from a basic wireframe and design template. Images were provided; however, icons and fonts were at the developer's discretion.",
-      "tech-stack": ["JavaScript", "HTML", "CSS"]
+      "techStack": ["JavaScript", "HTML", "CSS"]
     }
   ]
 }

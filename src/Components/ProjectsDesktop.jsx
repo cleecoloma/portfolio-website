@@ -10,7 +10,7 @@ function ProjectsDesktop({ id }) {
     <div className='projects-desktop-container' id={id}>
       <h3>FEATURED PROJECTS</h3>
       {projects.map(project => (<div key={project.id} className='projects-desktop-card'>
-        <img src={'/images/' + project.image} />
+        <img src={'/images/' + project.name + '.png'} />
         <div className='card-desktop-right'>
           <div className='card-desktop-header'>
             <p id='card-desktop-title'>{project.displayName}</p>
@@ -22,10 +22,9 @@ function ProjectsDesktop({ id }) {
           <div id='card-desktop-text'>{project.description}
           </div>
           <div className='card-desktop-skills'>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
-            <Button variant='primary'>TOOLS</Button>
+            {project.techStack.map(skill => (
+              <div key={skill}>{skill}</div>
+            ))}
           </div>
         </div>
       </div>))}
