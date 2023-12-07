@@ -23,7 +23,7 @@ function ProjectsDesktop({ id }) {
           </div>
           <div className='card-desktop-skills'>
             {project.techStack.map(skill => (
-              <div key={skill}>{skill}</div>
+              <div className='each-skills' key={skill}>{skill}</div>
             ))}
           </div>
         </div>
