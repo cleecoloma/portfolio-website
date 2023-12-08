@@ -50,11 +50,26 @@
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
-    #first-description {
+  #first-description {
     font-size: 130%;
   }
 
   #lawn-img {
     width: 420px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+  #background-description {
+    flex-direction: column;
+  }
+
+  #lawn-img {
+    margin-top: 2rem;
+  }
+
+  #first-description {
+    padding: 0 3rem;
+    font-size: 120%;
   }
 }
