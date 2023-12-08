@@ -1,81 +1,58 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// import './Projects.css';
+import '../styles/Projects.css';
+import data from '../data/data.json';
 
 function Projects({ id }) {
+  const projects = data.projects.slice(0, 3);
+
   return (
     <div className='projects-container' id={id}>
       <h4>FEATURED PROJECTS</h4>
-      <Card className='projects-card'>
-        <Card.Img
-          className='card-img'
-          src='../../public/images/job-application-tracker.png'
-        />
-        <Card.Body>
-          <div className='card-header'>
-            <Card.Title id='card-title'>Job Application Tracker</Card.Title>
-            <Button variant='primary'>DEMO</Button>
-            <Button variant='primary'>CODE</Button>
-          </div>
-          <Card.Text id='card-text'>
-            A mobile-responsive job application tracker web application using
-            the MERN (MongoDB, Express, React, Node) stack, enabling users to
-            seamlessly create, manage, and track job listings across four
-            categories (Interested, Applied, Interview, Rejected).
-          </Card.Text>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-        </Card.Body>
-      </Card>
-      <Card className='projects-card'>
-        <Card.Img
-          className='card-img'
-          src='../../public/images/job-application-tracker.png'
-        />
-        <Card.Body>
-          <div className='card-header'>
-            <Card.Title id='card-title'>Job Application Tracker</Card.Title>
-            <Button variant='primary'>DEMO</Button>
-            <Button variant='primary'>CODE</Button>
-          </div>
-          <Card.Text id='card-text'>
-            A mobile-responsive job application tracker web application using
-            the MERN (MongoDB, Express, React, Node) stack, enabling users to
-            seamlessly create, manage, and track job listings across four
-            categories (Interested, Applied, Interview, Rejected).
-          </Card.Text>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-        </Card.Body>
-      </Card>
-      <Card className='projects-card'>
-        <Card.Img
-          className='card-img'
-          src='../../public/images/job-application-tracker.png'
-        />
-        <Card.Body>
-          <div className='card-header'>
-            <Card.Title id='card-title'>Job Application Tracker</Card.Title>
-            <Button variant='primary'>DEMO</Button>
-            <Button variant='primary'>CODE</Button>
-          </div>
-          <Card.Text id='card-text'>
-            A mobile-responsive job application tracker web application using
-            the MERN (MongoDB, Express, React, Node) stack, enabling users to
-            seamlessly create, manage, and track job listings across four
-            categories (Interested, Applied, Interview, Rejected).
-          </Card.Text>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-          <Button variant='primary'>TOOLS</Button>
-        </Card.Body>
-      </Card>
+      {projects.map((project) => (
+        <Card key={project.id} className='projects-card'>
+          <Card.Img
+            src={'/images/' + project.name + '.png'}
+            className='card-image'
+          />
+          <Card.Body>
+            <div className='card-header'>
+              <Card.Title id='card-title'>{project.displayName}</Card.Title>
+              <div>
+                <Button
+                  className='link-buttons'
+                  variant='secondary'
+                  size='sm'
+                  href={project.liveLink}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  DEMO
+                </Button>
+                <Button
+                  className='link-buttons'
+                  variant='success'
+                  size='sm'
+                  href={project.github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  CODE
+                </Button>
+              </div>
+            </div>
+            <Card.Text id='card-text'>{project.description}</Card.Text>
+            <div className='card-skills'>
+              {project.techStack.map((skill) => (
+                <div className='each-skills' key={skill}>
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </Card.Body>
+        </Card>
+      ))}
       <Button variant='success' id='see-more-button'>
         SEE MORE PROJECTS
       </Button>

@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      const isDesktopQuery = window.matchMedia('(min-width: 835px)').matches;
+      const isDesktopQuery = window.matchMedia('(min-width: 1000px)').matches;
       setIsDesktop(isDesktopQuery);
 
       const showHeaderQuery = window.matchMedia('(min-width: 425px)').matches;

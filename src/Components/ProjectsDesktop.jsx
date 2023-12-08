@@ -13,7 +13,7 @@ function ProjectsDesktop({ id }) {
         <div key={project.id} className='projects-desktop-card'>
           <img
             src={'/images/' + project.name + '.png'}
-            className='card-image'
+            className='card-desktop-image'
           />
           <div className='card-desktop-right'>
             <div className='card-desktop-header'>
