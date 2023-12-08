@@ -6,8 +6,12 @@
   padding: 5rem 0 2rem;
 }
 
-.projects-desktop-container h3 {
-  display: none;
+.projects-desktop-container h4 {
+  text-align: center;
+  padding: 2rem 2rem 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0f8064;
 }
 
 .projects-desktop-card {

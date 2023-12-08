@@ -8,7 +8,7 @@ function ProjectsDesktop({ id }) {
 
   return (
     <div className='projects-desktop-container' id={id}>
-      <h3>FEATURED PROJECTS</h3>
+      <h4>FEATURED PROJECTS</h4>
       {projects.map((project) => (
         <div key={project.id} className='projects-desktop-card'>
           <img

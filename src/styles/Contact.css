@@ -6,6 +6,13 @@
   padding: 2rem 3rem 0;
 }
 
+.contact-container h4 {
+  padding: 2rem 2rem 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0f8064;
+}
+
 .contact-left {
   display: flex;
   flex-direction: column;
