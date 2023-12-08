@@ -132,7 +132,7 @@
   }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1000px) {
+@media only screen and (min-width: 551px) and (max-width: 1000px) {
   .hero-container {
     flex-direction: column;
     padding: 8rem 0;
@@ -142,7 +142,8 @@
     order: 1;
   }
 
-  .right-div, .left-div {
+  .right-div,
+  .left-div {
     width: 100%;
   }
 
@@ -177,6 +178,34 @@
   #contact-button {
     font-size: 115%;
     width: 20rem;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 800px) {
+  .hero-container img {
+    width: 350px;
+  }
+
+  .hero-container h1 {
+    font-size: 250%;
+  }
+
+  .hero-container h3 {
+    font-size: 140%;
+  }
+
+  #hero-message {
+    font-size: 320%;
+    padding: 0 2rem 4rem;
+  }
+
+  #button-container {
+    flex-direction: column;
+  }
+
+  #project-button, #contact-button {
+    font-size: 115%;
+    width: 24rem;
   }
 }
 
