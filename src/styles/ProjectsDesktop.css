@@ -12,20 +12,20 @@
 
 .projects-desktop-card {
   display: flex;
+  margin-bottom: 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.projects-desktop-card img {
-  display: flex;
-  width: 60%;
-  margin: 1rem 3rem;
+.card-image {
+  max-width: 60%;
+  height: auto;
+  margin-right: 1rem;
   flex-direction: row;
 }
 
 .card-desktop-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  margin: 1rem 5rem 1rem 0;
+  flex-grow: 1;
+  padding-right: 0.5rem;
 }
 
 .card-desktop-header {
@@ -58,10 +58,13 @@
 .card-desktop-skills {
   display: flex;
   font-size: 70%;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: start;
 }
 
-.each-skills:first-child {
-  margin-left: 0;
+.each-skills {
+  margin-bottom: 0.5rem;
 }
 
 #desktop-see-more-button {
@@ -78,4 +81,33 @@
   font-weight: 500;
   background-color: #14876a;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media only screen and (min-width: 1221px) and (max-width: 1440px) {
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1220px) {
+  #card-desktop-title {
+    font-size: 145%;
+  }
+
+  #card-desktop-text {
+    font-size: 105%;
+    margin: 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+  #background-description {
+    flex-direction: column;
+  }
+
+  #lawn-img {
+    margin-top: 2rem;
+  }
+
+  #first-description {
+    padding: 0 3rem;
+    font-size: 120%;
+  }
 }

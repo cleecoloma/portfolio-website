@@ -29,7 +29,7 @@
     {
       "id": 3,
       "displayName": "CookBot AI",
-      "name": "lost-hub",
+      "name": "cookbot-ai",
       "github": "https://github.com/cleecoloma/cookbot-ai-app",
       "liveLink": "https://cookbot-ai-app.netlify.app/",
       "description": "CookBot is a full-stack app using OpenAI's API to create recipe cards from user-input ingredients, allowing saving to profiles. Users provide ingredient lists, and OpenAI queries and displays results in a customizable modal.",

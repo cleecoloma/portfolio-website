@@ -11,7 +11,10 @@ function ProjectsDesktop({ id }) {
       <h3>FEATURED PROJECTS</h3>
       {projects.map((project) => (
         <div key={project.id} className='projects-desktop-card'>
-          <img src={'/images/' + project.name + '.png'} />
+          <img
+            src={'/images/' + project.name + '.png'}
+            className='card-image'
+          />
           <div className='card-desktop-right'>
             <div className='card-desktop-header'>
               <p id='card-desktop-title'>{project.displayName}</p>
