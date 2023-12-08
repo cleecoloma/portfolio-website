@@ -39,7 +39,7 @@ function Contact({ id }) {
         <a
           href='https://www.linkedin.com/in/chesterleecoloma/'
           target='_blank'
-          rel='noopener noreferrer'
+          rel='noopener noreferrer' 
         >
           <LinkedInIcon id='linkedin-icon' />
         </a>

@@ -46,7 +46,7 @@
   border-radius: 8px;
 }
 
-.card-desktop-links button:nth-child(2) {
+.link-buttons:nth-child(2) {
   margin: 0 1rem;
 }
 
