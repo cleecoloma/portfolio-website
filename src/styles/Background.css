@@ -37,9 +37,9 @@
 
 #lawn-img {
   width: 550px;
+  height: auto;
   object-fit: contain;
   border-radius: 1rem;
-  height: 100%;
   margin: 0 2rem;
 }
 
@@ -63,7 +63,7 @@
   }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1000px) {
+@media only screen and (min-width: 551px) and (max-width: 1000px) {
   #background-description {
     flex-direction: column;
   }
@@ -75,5 +75,11 @@
   #first-description {
     padding: 0 3rem;
     font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 800px) {
+  #lawn-img {
+    width: 400px;
   }
 }
