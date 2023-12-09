@@ -34,25 +34,25 @@
 
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {
   #header-navbar {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
   #header-navbar {
-    width: 950px;
+    max-width: 950px;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1000px) {
   #header-navbar {
-    width: 750px;
+    max-width: 750px;
   }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
   #header-navbar {
-    width: 540px;
+    max-width: 540px;
     background-color: rgba(255, 255, 255, 0.95);
   }
 
@@ -63,7 +63,8 @@
 
 @media only screen and (max-width: 550px) {
   #header-navbar {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding: 0 8px;
     background-color: rgba(255, 255, 255, 0.97);
   }
