@@ -199,6 +199,7 @@
   }
 
   #hero-message {
+    margin: 1rem 0 0;
     font-size: 350%;
   }
 
@@ -219,11 +220,12 @@
   }
 
   .hero-container img {
-    width: 350px;
+    width: 320px;
   }
 
   .hero-container h1 {
     font-size: 220%;
+    margin-top: 1rem;
   }
 
   .hero-container h3 {
@@ -231,12 +233,21 @@
   }
 
   #hero-message {
-    font-size: 310%;
-    padding: 0 1rem 6rem;
+    margin: 1rem 0 0;
+    font-size: 290%;
+    padding: 0 1rem 4rem;
   }
 
   #button-container {
     flex-direction: column;
+  }
+
+  #contact-button {
+    margin: 1rem 1rem;
+  }
+
+  #project-button {
+    margin: 0;
   }
 
   #project-button,
@@ -245,10 +256,10 @@
     width: 24rem;
   }
 }
-/* 
+
 @media only screen and (max-width: 400px) {
   .hero-container img {
-    max-width: 300px;
+    max-width: 280px;
   }
 
   .hero-container h1 {
@@ -260,8 +271,8 @@
   }
 
   #hero-message {
-    font-size: 270%;
-    padding: 0 0.5rem 6rem;
+    font-size: 240%;
+    padding: 0 0 2rem;
   }
 
   #button-container {
@@ -271,6 +282,6 @@
   #project-button,
   #contact-button {
     font-size: 115%;
-    width: 24rem;
+    width: 95%;
   }
-} */
+}

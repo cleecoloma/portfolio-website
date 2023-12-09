@@ -21,7 +21,7 @@ function ProjectsDesktop({ id }) {
             </div>
             <div className='card-desktop-links'>
               <Button
-                className='link-buttons'
+                className='desktop-link-buttons'
                 variant='secondary'
                 size='sm'
                 href={project.liveLink}
@@ -31,7 +31,7 @@ function ProjectsDesktop({ id }) {
                 DEMO
               </Button>
               <Button
-                className='link-buttons'
+                className='desktop-link-buttons'
                 variant='success'
                 size='sm'
                 href={project.github}

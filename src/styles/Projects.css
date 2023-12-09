@@ -8,7 +8,7 @@
 .projects-card {
   display: flex;
   margin: 0 0.5rem 2rem;
-  box-shadow: rgba(170, 173, 173, 0.4) 0px 0px 0px 2px
+  box-shadow: rgba(170, 173, 173, 0.4) 0px 0px 0px 2px;
 }
 
 .card-image {
@@ -38,6 +38,10 @@
   border-radius: 8px;
 }
 
+.link-buttons {
+  margin: 2px;
+}
+
 #card-text {
   font-size: 120%;
   margin: 1rem 1rem;
@@ -63,11 +67,29 @@
   font-weight: 400;
   text-transform: none;
   border: none;
-  
 }
 
 #see-more-button:hover {
   font-weight: 500;
   background-color: #14876a;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media only screen and (max-width: 550px) {
+  #card-title {
+    font-size: 125%;
+    font-weight: 500;
+    max-width: 50%;
+  }
+
+  #card-text {
+    font-size: 110%;
+    margin: 1rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #see-more-button {
+    width: 95%;
+  }
 }

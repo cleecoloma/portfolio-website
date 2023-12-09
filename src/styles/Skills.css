@@ -57,3 +57,9 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 400px) {
+    .skills {
+    padding: 8px 4px;
+  }
+}
