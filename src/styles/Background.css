@@ -1,5 +1,4 @@
 .background-container {
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,6 +62,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .background-container {
+    align-items: start;
+  }
+
   #background-description {
     flex-direction: column;
   }

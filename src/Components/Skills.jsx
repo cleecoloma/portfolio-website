@@ -7,7 +7,7 @@ function Skills({ id }) {
   return (
     <div className='skills-container' id={id}>
       <h4>SKILLS</h4>
-      <div class='skills'>
+      <div className='skills'>
         <p>LANGUAGES</p>
         <ul>
           <li>JavaScript</li>

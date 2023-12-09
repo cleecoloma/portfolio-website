@@ -1,12 +1,4 @@
-.projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .projects-container h4 {
-  text-align: center;
   padding: 2rem 2rem 1rem;
   font-weight: 700;
   text-decoration: underline;
@@ -15,7 +7,7 @@
 
 .projects-card {
   display: flex;
-  margin-bottom: 2rem;
+  margin: 0 0.5rem 2rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -61,13 +53,17 @@
 }
 
 #see-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #0f8064;
-  margin: 2rem 0 4rem;
+  margin: 2rem auto 4rem;
   font-size: 120%;
   width: 22rem;
   font-weight: 400;
   text-transform: none;
   border: none;
+  
 }
 
 #see-more-button:hover {
