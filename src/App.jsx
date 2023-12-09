@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
+import HamburgerMenu from './Components/HamburgerMenu';
 import Hero from './Components/Hero';
 import Background from './Components/Background';
 import Skills from './Components/Skills';
@@ -12,12 +13,15 @@ import './styles/App.css';
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       const isDesktopQuery = window.matchMedia('(min-width: 1000px)').matches;
       setIsDesktop(isDesktopQuery);
 
+      const showMenuQuery = window.matchMedia('(max-width: 800px)').matches;
+      setShowMenu(showMenuQuery);
     };
 
     handleResize();
@@ -32,6 +36,7 @@ function App() {
   return (
     <div className='content'>
       <Header />
+      {showMenu && <HamburgerMenu />}
       <Hero id='home' />
       <Background id='background' />
       <Skills id='skills' />
