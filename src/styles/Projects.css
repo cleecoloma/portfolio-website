@@ -8,7 +8,6 @@
 .projects-card {
   display: flex;
   margin: 0 0.5rem 2rem;
-  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
   box-shadow: rgba(170, 173, 173, 0.4) 0px 0px 0px 2px
 }
 
