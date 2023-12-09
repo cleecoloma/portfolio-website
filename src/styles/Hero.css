@@ -132,7 +132,7 @@
   }
 }
 
-@media only screen and (min-width: 551px) and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .hero-container {
     flex-direction: column;
     padding: 8rem 0;
@@ -197,6 +197,33 @@
   #hero-message {
     font-size: 320%;
     padding: 0 2rem 4rem;
+  }
+
+  #button-container {
+    flex-direction: column;
+  }
+
+  #project-button, #contact-button {
+    font-size: 115%;
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hero-container img {
+    width: 300px;
+  }
+
+  .hero-container h1 {
+    font-size: 220%;
+  }
+
+  .hero-container h3 {
+    font-size: 130%;
+  }
+
+  #hero-message {
+    font-size: 280%;
   }
 
   #button-container {

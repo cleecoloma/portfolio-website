@@ -19,7 +19,7 @@ function Projects({ id }) {
           <Card.Body>
             <div className='card-header'>
               <Card.Title id='card-title'>{project.displayName}</Card.Title>
-              <div>
+              <div className='card-links'>
                 <Button
                   className='link-buttons'
                   variant='secondary'

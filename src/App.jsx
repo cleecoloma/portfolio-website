@@ -12,15 +12,12 @@ import './styles/App.css';
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(false);
-  const [showHeader, setShowHeader] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
       const isDesktopQuery = window.matchMedia('(min-width: 1000px)').matches;
       setIsDesktop(isDesktopQuery);
 
-      const showHeaderQuery = window.matchMedia('(min-width: 425px)').matches;
-      setShowHeader(showHeaderQuery);
     };
 
     handleResize();
@@ -34,7 +31,7 @@ function App() {
 
   return (
     <div className='content'>
-      {showHeader && <Header />}
+      <Header />
       <Hero id='home' />
       <Background id='background' />
       <Skills id='skills' />

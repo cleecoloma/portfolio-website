@@ -3,11 +3,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5rem 0 2rem;
 }
 
-.projects-container h3 {
-  display: none;
+.projects-container h4 {
+  text-align: center;
+  padding: 2rem 2rem 1rem;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0f8064;
 }
 
 .projects-card {
@@ -33,6 +36,7 @@
   font-size: 155%;
   font-weight: 700;
   margin: 0;
+  max-width: 60%;
 }
 
 .each-skills {
@@ -40,10 +44,6 @@
   background-color: #e5e5e5;
   padding: 2px 8px;
   border-radius: 8px;
-}
-
-.link-buttons:nth-child(2) {
-  margin: 0 1rem;
 }
 
 #card-text {
@@ -60,7 +60,6 @@
   margin-left: 0.5rem;
 }
 
-
 #see-more-button {
   background-color: #0f8064;
   margin: 2rem 0 4rem;
@@ -76,85 +75,3 @@
   background-color: #14876a;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-
-/* @media only screen and (max-width: 424px) {
-  .projects-card {
-    margin: 0 0.5rem 2rem;
-  }
-
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .projects-card button {
-    margin-left: 1rem;
-    font-size: 70%;
-  }
-
-  #card-title {
-    font-size: 95%;
-  }
-
-  #card-text {
-    font-size: 85%;
-  }
-
-  #see-more-button {
-    width: 95%;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 4rem;
-  }
-} */
-
-/* @media only screen and (min-width: 425px) and (max-width: 834px) {
-  .projects-container h4 {
-    display: none;
-  }
-
-  .projects-container {
-    padding: 3rem 0;
-  }
-
-  .projects-card {
-    margin: 0 4rem 2rem;
-    display: flex;
-  }
-
-  .card-img {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .projects-card button {
-    margin-left: 1rem;
-    font-size: 70%;
-  }
-
-  #card-title {
-    font-size: 95%;
-  }
-
-  #card-text {
-    font-size: 85%;
-  }
-
-  #see-more-button {
-    width: 75%;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 4rem;
-  }
-} */

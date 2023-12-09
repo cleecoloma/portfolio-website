@@ -32,3 +32,10 @@ body {
     width: 540px;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .content {
+    width: 500px;
+    padding: 0 8px;
+  }
+}

@@ -9,6 +9,7 @@
 */
 * {
   margin: 0;
+  scroll-padding-top: 84px;
 }
 /*
   Typographic tweaks!

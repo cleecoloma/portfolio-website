@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 3rem 0;
 }
 
 .contact-container h4 {
@@ -112,7 +111,7 @@
   }
 }
 
-@media only screen and (min-width: 551px) and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .contact-body {
     flex-direction: column;
   }
@@ -125,13 +124,25 @@
     width: 100%;
     margin: 0;
   }
+
+  #link-container {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
-  
-
   #contact-description {
     font-size: 200%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contact-container {
+    justify-content: start;
+  }
+
+  #contact-description {
+    font-size: 180%;
   }
 }
 
