@@ -131,6 +131,7 @@
 
   #link-container {
     margin: 3rem auto 0;
+    width: 50%;
   }
 }
 
@@ -151,6 +152,11 @@
 
   .form-container {
     width: 90%;
+  }
+
+  #link-container {
+    margin: 3rem auto 0;
+    width: 70%;
   }
 }
 
