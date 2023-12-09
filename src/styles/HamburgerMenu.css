@@ -4,13 +4,30 @@
   right: 2rem;
   cursor: pointer;
   background-color: #fff;
-  color: #0F8064;
+  color: #0f8064;
   padding: 10px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  text-align: end;
 }
 
 #hamburger-menu svg {
-  font-size: 3rem; 
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+  #mobile-navigation-links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+#mobile-navigation-links {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+#close-button {
+  margin-top: 10px;
 }
