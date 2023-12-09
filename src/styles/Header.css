@@ -73,3 +73,9 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  #header-navbar {
+    max-width: 350px;
+  }
+}

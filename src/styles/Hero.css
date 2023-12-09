@@ -182,6 +182,10 @@
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
+  .hero-container {
+    min-height: auto;
+  }
+
   .hero-container img {
     width: 350px;
   }
@@ -202,17 +206,22 @@
     flex-direction: column;
   }
 
-  #project-button, #contact-button {
+  #project-button,
+  #contact-button {
     font-size: 115%;
     width: 24rem;
   }
 }
 
 @media only screen and (max-width: 550px) {
+  .hero-container {
+    min-height: auto;
+  }
+
   .hero-container img {
     width: 350px;
   }
-  
+
   .hero-container h1 {
     font-size: 220%;
   }
@@ -223,14 +232,45 @@
 
   #hero-message {
     font-size: 310%;
+    padding: 0 1rem 6rem;
   }
 
   #button-container {
     flex-direction: column;
   }
 
-  #project-button, #contact-button {
+  #project-button,
+  #contact-button {
     font-size: 115%;
     width: 24rem;
   }
 }
+/* 
+@media only screen and (max-width: 400px) {
+  .hero-container img {
+    max-width: 300px;
+  }
+
+  .hero-container h1 {
+    font-size: 190%;
+  }
+
+  .hero-container h3 {
+    font-size: 120%;
+  }
+
+  #hero-message {
+    font-size: 270%;
+    padding: 0 0.5rem 6rem;
+  }
+
+  #button-container {
+    flex-direction: column;
+  }
+
+  #project-button,
+  #contact-button {
+    font-size: 115%;
+    width: 24rem;
+  }
+} */
