@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
-import Button from '@mui/material/Button';
+import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../styles/HamburgerMenu.css';
 
@@ -17,7 +17,7 @@ function HamburgerMenu() {
   return (
     <div id='hamburger-menu' onClick={handleMenuToggle}>
       {showMenu && (
-        <div className='expanded-menu'>
+        <Navbar>
           <Nav
             id='mobile-navigation-links'
             className='me-auto'
@@ -39,7 +39,7 @@ function HamburgerMenu() {
               Contact
             </Nav.Link>
           </Nav>
-        </div>
+        </Navbar>
       )}
       {showMenu ? <CloseIcon id='close-button' /> : <MenuIcon />}
     </div>
