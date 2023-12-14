@@ -8,29 +8,14 @@ import '../styles/Contact.css';
 function Contact({ id }) {
   const [buttonText, setButtonText] = useState('Send message');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-
-    const formData = new FormData(e.target);
-
-    try {
-      const response = await fetch('/', {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (response.ok) {
-        setButtonText('Message Sent!');
-        setTimeout(() => {
-          setButtonText('Send message');
-        }, 5000);
-      } else {
-        console.error('Form submission failed:', response.status);
-      }
-    } catch (error) {
-      console.error('An error occurred while submitting the form:', error);
-    }
+    setButtonText('Message Sent!');
+    setTimeout(() => {
+      setButtonText('Send message');
+    }, 5000);
   };
+
   return (
     <div className='contact-container' id={id}>
       <h4>CONTACT</h4>
@@ -43,6 +28,8 @@ function Contact({ id }) {
           <Form
             name='contact'
             method='POST'
+            data-netlify='true'
+            data-netlify-honeypot='bot-field'
             onSubmit={handleSubmit}
           >
             <input type='hidden' name='form-name' value='contact' />
