@@ -15,31 +15,61 @@ function Contact({ id }) {
           <img src='../../images/lawn.jpg' alt='contact' id='contact-img' />
         </div>
         <div className='form-container'>
-          <Form>
+          <Form
+            name='contact'
+            method='POST'
+            data-netlify='true'
+            data-netlify-honeypot='bot-field'
+          >
+            <input type='hidden' name='form-name' value='contact' />
+
             <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
               <Form.Label>Name</Form.Label>
-              <Form.Control type='text' placeholder='Name' />
+              <Form.Control
+                type='text'
+                name='name'
+                placeholder='Name'
+                required
+              />
             </Form.Group>
             <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
               <Form.Label>Email address</Form.Label>
-              <Form.Control type='email' placeholder='Name@example.com' />
+              <Form.Control
+                type='email'
+                name='email'
+                placeholder='Name@example.com'
+                required
+              />
             </Form.Group>
             <Form.Group
               className='mb-3'
               controlId='exampleForm.ControlTextarea1'
             >
               <Form.Label>Message</Form.Label>
-              <Form.Control as='textarea' rows={5} placeholder='Say hello' />
+              {/* Specify the name attribute */}
+              <Form.Control
+                as='textarea'
+                name='message'
+                rows={5}
+                placeholder='Say hello'
+                required
+              />
             </Form.Group>
+            <Button
+              variant='outline-success'
+              id='send-message-button'
+              type='submit'
+            >
+              Send message
+            </Button>
           </Form>
-          <Button variant='outline-success' id='send-message-button'>Send message</Button>
         </div>
       </div>
       <div id='link-container'>
         <a
           href='https://www.linkedin.com/in/chesterleecoloma/'
           target='_blank'
-          rel='noopener noreferrer' 
+          rel='noopener noreferrer'
         >
           <LinkedInIcon id='linkedin-icon' />
         </a>
