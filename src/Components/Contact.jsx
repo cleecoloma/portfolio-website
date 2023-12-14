@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -6,6 +6,16 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Contact.css';
 
 function Contact({ id }) {
+  const [buttonText, setButtonText] = useState('Send message');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setButtonText('Message Sent!');
+    setTimeout(() => {
+      setButtonText('Send message');
+    }, 5000);
+  };
+
   return (
     <div className='contact-container' id={id}>
       <h4>CONTACT</h4>
@@ -20,6 +30,7 @@ function Contact({ id }) {
             method='POST'
             data-netlify='true'
             data-netlify-honeypot='bot-field'
+            onSubmit={handleSubmit}
           >
             <input type='hidden' name='form-name' value='contact' />
             <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
@@ -58,7 +69,7 @@ function Contact({ id }) {
               id='send-message-button'
               type='submit'
             >
-              Send message
+              {buttonText}
             </Button>
           </Form>
         </div>
