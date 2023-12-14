@@ -8,14 +8,29 @@ import '../styles/Contact.css';
 function Contact({ id }) {
   const [buttonText, setButtonText] = useState('Send message');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText('Message Sent!');
-    setTimeout(() => {
-      setButtonText('Send message');
-    }, 5000);
-  };
 
+    const formData = new FormData(e.target);
+
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        setButtonText('Message Sent!');
+        setTimeout(() => {
+          setButtonText('Send message');
+        }, 5000);
+      } else {
+        console.error('Form submission failed:', response.status);
+      }
+    } catch (error) {
+      console.error('An error occurred while submitting the form:', error);
+    }
+  };
   return (
     <div className='contact-container' id={id}>
       <h4>CONTACT</h4>
