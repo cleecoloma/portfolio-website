@@ -8,12 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <form
-      name="contact"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      hidden
-    >
+    <form name="contact" data-netlify="true" hidden>
       <div>
         <input type="text" id="name" name="name" />
       </div>
@@ -21,7 +16,7 @@
         <input type="email" id="email" name="email" />
       </div>
       <div>
-        <textarea id="message" name="message" />
+        <textarea id="message" name="message">
       </div>
     </form>
     <script type="module" src="/src/main.jsx"></script>
