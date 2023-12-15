@@ -6,15 +6,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Contact.css';
 
 function Contact({ id }) {
-  // const [buttonText, setButtonText] = useState('Send message');
+  const [success, setSuccess] = useState(false);
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   setButtonText('Message Sent!');
-  //   setTimeout(() => {
-  //     setButtonText('Send message');
-  //   }, 5000);
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSuccess(true);
+  };
 
   return (
     <div className='contact-container' id={id}>
@@ -24,57 +21,68 @@ function Contact({ id }) {
           <p id='contact-description'>Together, let's bring ideas to life.</p>
           <img src='../../images/lawn.jpg' alt='contact' id='contact-img' />
         </div>
+
         <div className='form-container'>
-          <Form
-            className='contact'
-            name='contact'
-            method='POST'
-            data-netlify='true'
-            data-netlify-recaptcha='true'
-            onSubmit='submit'
-          >
-            <input type='hidden' name='form-name' value='contact' />
-            <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
-              <Form.Label>Name</Form.Label>
-              <Form.Control
-                type='text'
-                name='name'
-                placeholder='Name'
-                required
-              />
-            </Form.Group>
-            <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
-              <Form.Label>Email address</Form.Label>
-              <Form.Control
-                type='email'
-                name='email'
-                placeholder='Name@example.com'
-                required
-              />
-            </Form.Group>
-            <Form.Group
-              className='mb-3'
-              controlId='exampleForm.ControlTextarea1'
+          {success ? (
+            <div id='success-message'>
+              <h3>Thank you!</h3>
+              <p>You're message has been sent.</p>
+            </div>
+          ) : (
+            <Form
+              className='contact'
+              name='contact'
+              method='POST'
+              data-netlify='true'
+              onSubmit={handleSubmit}
             >
-              <Form.Label>Message</Form.Label>
-              <Form.Control
-                as='textarea'
-                name='message'
-                rows={5}
-                placeholder='Say hello'
-                required
-              />
-            </Form.Group>
-            <div data-netlify-recaptcha='true'></div>
-            <Button
-              variant='outline-success'
-              id='send-message-button'
-              type='submit'
-            >
-              {/* {buttonText} */}
-              Send Message
-            </Button>
-          </Form>
+              <input type='hidden' name='form-name' value='contact' />
+              <Form.Group
+                className='mb-3'
+                controlId='exampleForm.ControlInput1'
+              >
+                <Form.Label>Name</Form.Label>
+                <Form.Control
+                  type='text'
+                  name='name'
+                  placeholder='Name'
+                  required
+                />
+              </Form.Group>
+              <Form.Group
+                className='mb-3'
+                controlId='exampleForm.ControlInput1'
+              >
+                <Form.Label>Email address</Form.Label>
+                <Form.Control
+                  type='email'
+                  name='email'
+                  placeholder='Name@example.com'
+                  required
+                />
+              </Form.Group>
+              <Form.Group
+                className='mb-3'
+                controlId='exampleForm.ControlTextarea1'
+              >
+                <Form.Label>Message</Form.Label>
+                <Form.Control
+                  as='textarea'
+                  name='message'
+                  rows={5}
+                  placeholder='Say hello'
+                  required
+                />
+              </Form.Group>
+              <Button
+                variant='outline-success'
+                id='send-message-button'
+                type='submit'
+              >
+                Send Message
+              </Button>
+            </Form>
+          )}
         </div>
       </div>
       <div id='link-container'>
