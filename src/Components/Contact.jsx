@@ -6,13 +6,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Contact.css';
 
 function Contact({ id }) {
-  const [success, setSuccess] = useState(false);
+  // const [success, setSuccess] = useState(false);
 
-  const handleClick = () => {
-    setTimeout(() => {
-      setSuccess(true);
-    }, 3000);
-  };
+  // const handleClick = () => {
+  //   setTimeout(() => {
+  //     setSuccess(true);
+  //   }, 3000);
+  // };
 
   return (
     <div className='contact-container' id={id}>
@@ -24,12 +24,12 @@ function Contact({ id }) {
         </div>
 
         <div className='form-container'>
-          {success ? (
+          {/* {success ? (
             <div id='success-message'>
               <h3>Thank you!</h3>
               <p>You're message has been sent.</p>
             </div>
-          ) : (
+          ) : ( */}
             <Form
               className='contact'
               name='contact'
@@ -80,12 +80,12 @@ function Contact({ id }) {
                 variant='outline-success'
                 id='send-message-button'
                 type='submit'
-                onClick={handleClick}
+                // onClick={handleClick}
               >
                 Send Message
               </Button>
             </Form>
-          )}
+          {/* )} */}
         </div>
       </div>
       <div id='link-container'>
