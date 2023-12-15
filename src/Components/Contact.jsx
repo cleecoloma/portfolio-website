@@ -9,8 +9,9 @@ function Contact({ id }) {
   const [success, setSuccess] = useState(false);
 
   const handleClick = () => {
-    setTimeout(3000);
-    setSuccess(true);
+    setTimeout(() => {
+      setSuccess(true);
+    }, 3000);
   };
 
   return (
@@ -35,7 +36,7 @@ function Contact({ id }) {
               method='POST'
               data-netlify='true'
               onSubmit='submit'
-              action='/#contact'
+              action='#contact'
             >
               <input type='hidden' name='form-name' value='contact' />
               <Form.Group
