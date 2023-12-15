@@ -6,7 +6,12 @@
   </a>
 
 <h3 align="center">Portfolio Website</h3>
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/4b2ddd93-ce4a-416d-b96d-56cfbdaa8336/deploy-status)](https://app.netlify.com/sites/cleecoloma/deploys)
+<p align="center">
+  <a href="https://app.netlify.com/sites/cleecoloma/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/4b2ddd93-ce4a-416d-b96d-56cfbdaa8336/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -25,9 +30,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 ![Preview](/public/images/preview.png)
@@ -36,36 +40,32 @@ My portfolio website showcases my work and skills as a full-stack software devel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
+- [![React][React.js]][React-url]
+- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Figma
 
 This is my initial design for this portfolio website.
 
 ![Figma Design](/public/images/figma-design.png)
 
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
