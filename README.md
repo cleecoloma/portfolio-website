@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/cleecoloma/portfolio-website">
-    <img src="images/chester.jpeg" alt="Logo" width="80" height="80">
+    <img src="/public/images/chester.jpeg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio Website</h3>
@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Preview][preview-screenshots]](/images/preview.png)
+![Preview](/public/images/preview.png)
 
 My portfolio website showcases my work and skills as a full-stack software developer. I designed and built this website to be responsive to all ranges of screen sizes. It provides an interactive and visually appealing experience, featuring hero section, background, skills, projects - live and code links, and contact form.
 
@@ -60,7 +60,7 @@ My portfolio website showcases my work and skills as a full-stack software devel
 
 This is my initial design for this portfolio website.
 
-![Figma Design](/images/figma-design.png)
+![Figma Design](/public/images/figma-design.png)
 
 ### Prerequisites
 
