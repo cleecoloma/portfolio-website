@@ -8,8 +8,8 @@ import '../styles/Contact.css';
 function Contact({ id }) {
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleClick = () => {
+    setTimeout(3000);
     setSuccess(true);
   };
 
@@ -34,7 +34,8 @@ function Contact({ id }) {
               name='contact'
               method='POST'
               data-netlify='true'
-              onSubmit={handleSubmit}
+              onSubmit='submit'
+              action='/#contact'
             >
               <input type='hidden' name='form-name' value='contact' />
               <Form.Group
@@ -78,6 +79,7 @@ function Contact({ id }) {
                 variant='outline-success'
                 id='send-message-button'
                 type='submit'
+                onClick={handleClick}
               >
                 Send Message
               </Button>
