@@ -34,19 +34,19 @@ function App() {
   });
 
   return (
-    <div className='content'>
-      <Header />
-      {showMenu && <HamburgerMenu />}
-      <Hero id='home' />
-      <Background id='background' />
-      <Skills id='skills' />
-      {isDesktop ? (
-        <ProjectsDesktop id='projects' />
-      ) : (
-        <Projects id='projects' />
-      )}
-      <Contact id='contact' />
-    </div>
+      <div className='content'>
+        <Header />
+        {showMenu && <HamburgerMenu />}
+        <Hero id='home' />
+        <Background id='background' />
+        <Skills id='skills' />x
+        {isDesktop ? (
+          <ProjectsDesktop id='projects' />
+        ) : (
+          <Projects id='projects' />
+        )}
+        <Contact id='contact' />
+      </div>
   );
 }
 
