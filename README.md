@@ -6,9 +6,7 @@
   </a>
 
 <h3 align="center">Portfolio Website</h3>
-
-  <p align="center">
-    My portfolio website showcases my work and skills as a full-stack software developer. I designed and built this website to be responsive to all ranges of screen sizes. It provides an interactive and visually appealing experience, featuring hero section, background, skills, projects - live and code links, and contact form.
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/4b2ddd93-ce4a-416d-b96d-56cfbdaa8336/deploy-status)](https://app.netlify.com/sites/cleecoloma/deploys)
 </div>
 
 
@@ -24,11 +22,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#figma">Figma</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -44,34 +38,29 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Preview][preview-screenshots]](/images/preview.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+My portfolio website showcases my work and skills as a full-stack software developer. I designed and built this website to be responsive to all ranges of screen sizes. It provides an interactive and visually appealing experience, featuring hero section, background, skills, projects - live and code links, and contact form.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Figma
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is my initial design for this portfolio website.
+
+![Figma Design](/images/figma-design.png)
 
 ### Prerequisites
 
