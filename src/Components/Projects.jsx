@@ -53,9 +53,9 @@ function Projects({ id }) {
           </Card.Body>
         </Card>
       ))}
-      <Button variant='success' id='see-more-button'>
+      {/* <Button variant='success' id='see-more-button'>
         SEE MORE PROJECTS
-      </Button>
+      </Button> */}
     </div>
   );
 }

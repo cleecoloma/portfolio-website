@@ -52,7 +52,7 @@ function ProjectsDesktop({ id }) {
           </div>
         </div>
       ))}
-      <Button id='desktop-see-more-button'>See more projects</Button>
+      {/* <Button id='desktop-see-more-button'>See more projects</Button> */}
     </div>
   );
 }
