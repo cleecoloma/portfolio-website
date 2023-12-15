@@ -30,8 +30,7 @@ function Contact({ id }) {
             name='contact'
             method='POST'
             data-netlify='true'
-            data-netlify-honeypot='bot-field'
-            // onSubmit={handleSubmit}
+            data-netlify-recaptcha='true'
             onSubmit='submit'
           >
             <input type='hidden' name='form-name' value='contact' />
@@ -66,6 +65,7 @@ function Contact({ id }) {
                 required
               />
             </Form.Group>
+            <div data-netlify-recaptcha='true'></div>
             <Button
               variant='outline-success'
               id='send-message-button'
