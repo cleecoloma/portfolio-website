@@ -6,15 +6,15 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Contact.css';
 
 function Contact({ id }) {
-  const [buttonText, setButtonText] = useState('Send message');
+  // const [buttonText, setButtonText] = useState('Send message');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setButtonText('Message Sent!');
-    setTimeout(() => {
-      setButtonText('Send message');
-    }, 5000);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setButtonText('Message Sent!');
+  //   setTimeout(() => {
+  //     setButtonText('Send message');
+  //   }, 5000);
+  // };
 
   return (
     <div className='contact-container' id={id}>
@@ -26,11 +26,13 @@ function Contact({ id }) {
         </div>
         <div className='form-container'>
           <Form
+            className='contact'
             name='contact'
             method='POST'
             data-netlify='true'
             data-netlify-honeypot='bot-field'
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
+            onSubmit='submit'
           >
             <input type='hidden' name='form-name' value='contact' />
             <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
@@ -69,7 +71,8 @@ function Contact({ id }) {
               id='send-message-button'
               type='submit'
             >
-              {buttonText}
+              {/* {buttonText} */}
+              Send Message
             </Button>
           </Form>
         </div>
