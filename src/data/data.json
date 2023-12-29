@@ -7,7 +7,7 @@
       "github": "https://github.com/cleecoloma/cookbot-ai-app",
       "liveLink": "https://cookbot-ai-app.netlify.app/",
       "description": "The CookBot AI Recipe Project is a web application designed to assist users in managing and exploring recipes. It leverages the power of artificial intelligence to simplify the process of creating, organizing, and discovering new recipes. Whether you're a cooking enthusiast, a culinary expert, or just looking for meal inspiration, CookBot AI offers a user-friendly platform to streamline your cooking experience.",
-      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI"]
+      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI", "useState", "useEffect", "useContext"]
     },
     {
       "id": 2,
