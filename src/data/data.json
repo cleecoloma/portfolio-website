@@ -2,6 +2,24 @@
   "projects": [
     {
       "id": 1,
+      "displayName": "CookBot AI",
+      "name": "cookbot-ai",
+      "github": "https://github.com/cleecoloma/cookbot-ai-app",
+      "liveLink": "https://cookbot-ai-app.netlify.app/",
+      "description": "The CookBot AI Recipe Project is a web application designed to assist users in managing and exploring recipes. It leverages the power of artificial intelligence to simplify the process of creating, organizing, and discovering new recipes. Whether you're a cooking enthusiast, a culinary expert, or just looking for meal inspiration, CookBot AI offers a user-friendly platform to streamline your cooking experience.",
+      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI"]
+    },
+    {
+      "id": 2,
+      "displayName": "Job Application Tracker",
+      "name": "job-application-tracker",
+      "github": "https://github.com/cleecoloma/job-application-tracker",
+      "liveLink": "https://job-application-tracker-app.netlify.app/",
+      "description": "A mobile-responsive job application tracker web application using the MERN (MongoDB, Express, React, Node) stack, enabling users to seamlessly create, manage, and track job listings across four categories (Interested, Applied, Interview, Rejected).",
+      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0"]
+    },
+    {
+      "id": 3,
       "displayName": "Lost Hub",
       "name": "lost-hub",
       "github": "https://github.com/lost-hub-app",
@@ -16,24 +34,6 @@
         "Google Cloud Storage",
         "Google Maps API"
       ]
-    },
-    {
-      "id": 2,
-      "displayName": "Job Application Tracker",
-      "name": "job-application-tracker",
-      "github": "https://github.com/cleecoloma/job-application-tracker",
-      "liveLink": "https://job-application-tracker-app.netlify.app/",
-      "description": "A mobile-responsive job application tracker web application using the MERN (MongoDB, Express, React, Node) stack, enabling users to seamlessly create, manage, and track job listings across four categories (Interested, Applied, Interview, Rejected).",
-      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0"]
-    },
-    {
-      "id": 3,
-      "displayName": "CookBot AI",
-      "name": "cookbot-ai",
-      "github": "https://github.com/cleecoloma/cookbot-ai-app",
-      "liveLink": "https://cookbot-ai-app.netlify.app/",
-      "description": "CookBot is a full-stack app using OpenAI's API to create recipe cards from user-input ingredients, allowing saving to profiles. Users provide ingredient lists, and OpenAI queries and displays results in a customizable modal.",
-      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI"]
     },
     {
       "id": 4,

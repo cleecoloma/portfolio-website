@@ -23,7 +23,7 @@ function Background({ id }) {
           into the world of lawn care - determined to have the best lawn in the
           neighborhood. It's my little green oasis project beyond the keyboard.
         </div>
-        <img src='../../images/lawn.jpg' alt='lawn' id='lawn-img' />
+        <img src='../../images/mech-to-code.png' alt='lawn' id='lawn-img' />
       </p>
       <div id='icon-container'>
         <SettingsIcon id='gear-icon' />
