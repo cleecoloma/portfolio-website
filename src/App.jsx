@@ -39,7 +39,7 @@ function App() {
         {showMenu && <HamburgerMenu />}
         <Hero id='home' />
         <Background id='background' />
-        <Skills id='skills' />x
+        <Skills id='skills' />
         {isDesktop ? (
           <ProjectsDesktop id='projects' />
         ) : (
