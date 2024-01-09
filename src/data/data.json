@@ -7,10 +7,38 @@
       "github": "https://github.com/cleecoloma/cookbot-ai-app",
       "liveLink": "https://cookbot-ai-app.netlify.app/",
       "description": "The CookBot AI Recipe Project is a web application designed to assist users in managing and exploring recipes. It leverages the power of artificial intelligence to simplify the process of creating, organizing, and discovering new recipes. Whether you're a cooking enthusiast, a culinary expert, or just looking for meal inspiration, CookBot AI offers a user-friendly platform to streamline your cooking experience.",
-      "techStack": ["MongoDB", "Express", "React", "Node", "Auth0", "OpenAI", "useState", "useEffect", "useContext"]
+      "techStack": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node",
+        "Auth0",
+        "OpenAI",
+        "useState",
+        "useEffect",
+        "useContext"
+      ]
     },
     {
       "id": 2,
+      "displayName": "Quest Forge",
+      "name": "quest-forge",
+      "github": "https://github.com/cleecoloma/quest-forge",
+      "liveLink": "https://quest-forge-app.netlify.app/",
+      "description": "Quest Forge is a text-based adventure where you shape the destiny of your hero. This immersive web application allows users to create and customize their heroic characters, making critical decisions that will ultimately determine their fate. Engage in an epic journey filled with rich storytelling, challenging choices, and unexpected twists.",
+      "techStack": [
+        "AWS API Gateway",
+        "AWS DynamoDB",
+        "AWS Lambda",
+        "MongoDB",
+        "Express",
+        "React",
+        "Node",
+        "Auth0"
+      ]
+    },
+    {
+      "id": 3,
       "displayName": "Job Application Tracker",
       "name": "job-application-tracker",
       "github": "https://github.com/cleecoloma/job-application-tracker",
@@ -19,7 +47,7 @@
       "techStack": ["MongoDB", "Express", "React", "Node", "Auth0"]
     },
     {
-      "id": 3,
+      "id": 4,
       "displayName": "Lost Hub",
       "name": "lost-hub",
       "github": "https://github.com/lost-hub-app",
@@ -36,7 +64,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "displayName": "Quizzard Wizzard",
       "name": "quizzard-qizzard",
       "github": "https://github.com/Code-Fellow-Quizzards/quizzard-wizard",
@@ -45,7 +73,7 @@
       "techStack": ["JavaScript", "HTML", "CSS", "Trivia API"]
     },
     {
-      "id": 5,
+      "id": 6,
       "displayName": "Lawn Company",
       "name": "lawn-company",
       "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
@@ -54,7 +82,7 @@
       "techStack": ["JavaScript", "HTML", "CSS"]
     },
     {
-      "id": 6,
+      "id": 7,
       "displayName": "Chocolate Pizza",
       "name": "chocolate-pizza",
       "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
