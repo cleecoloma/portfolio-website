@@ -6,6 +6,7 @@ import data from '../data/data.json';
 
 function Projects({ id }) {
   const projects = data.projects.slice(0, 3);
+  const allProjects = data.projects.slice(3);
 
   return (
     <div className='projects-container' id={id}>
@@ -53,9 +54,9 @@ function Projects({ id }) {
           </Card.Body>
         </Card>
       ))}
-      {/* <Button variant='success' id='see-more-button'>
+      <Button variant='success' id='see-more-button'>
         SEE MORE PROJECTS
-      </Button> */}
+      </Button>
     </div>
   );
 }

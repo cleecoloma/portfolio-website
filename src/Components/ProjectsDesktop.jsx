@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import '../styles/ProjectsDesktop.css';
 import data from '../data/data.json';
 
 function ProjectsDesktop({ id }) {
   const projects = data.projects.slice(0, 3);
+  const allProjects = data.projects.slice(3);
+  const [seeMore, setSeeMore] = useState(false);
+
+  const handleClick = () => {
+    setSeeMore(!seeMore)
+  }
 
   return (
     <div className='projects-desktop-container' id={id}>
@@ -52,7 +58,52 @@ function ProjectsDesktop({ id }) {
           </div>
         </div>
       ))}
-      {/* <Button id='desktop-see-more-button'>See more projects</Button> */}
+      {seeMore ? allProjects.map((project) => (
+        <div key={project.id} className='projects-desktop-card'>
+          <img
+            src={'/images/' + project.name + '.png'}
+            className='card-desktop-image'
+          />
+          <div className='card-desktop-right'>
+            <div className='card-desktop-header'>
+              <p id='card-desktop-title'>{project.displayName}</p>
+            </div>
+            <div className='card-desktop-links'>
+              <Button
+                className='desktop-link-buttons'
+                variant='secondary'
+                size='sm'
+                href={project.liveLink}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                DEMO
+              </Button>
+              <Button
+                className='desktop-link-buttons'
+                variant='success'
+                size='sm'
+                href={project.github}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                CODE
+              </Button>
+            </div>
+            <div id='card-desktop-text'>{project.description}</div>
+            <div className='card-desktop-skills'>
+              {project.techStack.map((skill) => (
+                <div className='each-skills' key={skill}>
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )) : null}
+      <Button id='desktop-see-more-button' onClick={handleClick}>
+        See {seeMore ? 'less' : 'more'} projects
+      </Button>
     </div>
   );
 }
