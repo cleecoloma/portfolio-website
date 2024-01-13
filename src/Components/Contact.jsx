@@ -6,10 +6,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Contact.css';
 
 function Contact({ id }) {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
-
   return (
     <div className='contact-container' id={id}>
       <h4>CONTACT</h4>
@@ -25,7 +21,7 @@ function Contact({ id }) {
             name='contact'
             method='POST'
             data-netlify='true'
-            onSubmit={handleSubmit}
+            onSubmit='submit'
             action='#contact'
           >
             <input type='hidden' name='form-name' value='contact' />
