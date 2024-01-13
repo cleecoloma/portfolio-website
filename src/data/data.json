@@ -87,7 +87,7 @@
       "name": "chocolate-pizza",
       "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
       "liveLink": "https://cleecoloma.github.io/chocolate-pizza-landing-page/",
-      "description": "This landing page for a chocolate pizza recipe. It was created from a basic wireframe and design template. Images were provided; however, icons and fonts were at the developer's discretion.",
+      "description": "This landing page for a chocolate pizza recipe was developed based on a wireframe and design template. While images were provided, I wrote the code and styled it to match the given design and functionality.",
       "techStack": ["JavaScript", "HTML", "CSS"]
     }
   ]
