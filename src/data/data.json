@@ -58,6 +58,7 @@
         "Express",
         "React",
         "Node",
+        "Redux",
         "Auth0",
         "Google Cloud Storage",
         "Google Maps API"
