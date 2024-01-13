@@ -52,12 +52,13 @@
       "name": "lost-hub",
       "github": "https://github.com/lost-hub-app",
       "liveLink": "https://lost-hub-app.netlify.app/",
-      "description": "The Lost Hub application streamlines reporting and finding lost items, offering a user-friendly platform to report and retrieve belongings efficiently. It addresses the inconvenience of traditional lost and found systems by providing a centralized digital solution",
+      "description": "The Lost Hub application streamlines reporting and finding lost items, offering a user-friendly platform to report and retrieve belongings efficiently. It addresses the inconvenience of traditional lost and found systems by providing a centralized digital solution.",
       "techStack": [
         "MongoDB",
         "Express",
         "React",
         "Node",
+        "Redux",
         "Auth0",
         "Google Cloud Storage",
         "Google Maps API"
@@ -66,7 +67,7 @@
     {
       "id": 5,
       "displayName": "Quizzard Wizzard",
-      "name": "quizzard-qizzard",
+      "name": "quizzard-wizard",
       "github": "https://github.com/Code-Fellow-Quizzards/quizzard-wizard",
       "liveLink": "https://code-fellow-quizzards.github.io/quizzard-wizard/",
       "description": "The Quizzard Wizard is a fun and engaging web application that challenges users with a wide range of exciting quizzes on various topics. Players can test their knowledge, compete with friends, and unlock achievements as they progress through levels.",
@@ -76,9 +77,9 @@
       "id": 6,
       "displayName": "Lawn Company",
       "name": "lawn-company",
-      "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
+      "github": "https://github.com/cleecoloma/landscaping-company",
       "liveLink": "https://cleecoloma.github.io/landscaping-company/",
-      "description": "This landing page for a chocolate pizza recipe. It was created from a basic wireframe and design template. Images were provided; however, icons and fonts were at the developer's discretion.",
+      "description": "This is a landing page for a lawn company. This company offers services such as lawn care and maintenance, landscape design, garden design and installation, hardscape construction, and landscape lighting.",
       "techStack": ["JavaScript", "HTML", "CSS"]
     },
     {
@@ -87,7 +88,7 @@
       "name": "chocolate-pizza",
       "github": "https://github.com/cleecoloma/chocolate-pizza-landing-page",
       "liveLink": "https://cleecoloma.github.io/chocolate-pizza-landing-page/",
-      "description": "This landing page for a chocolate pizza recipe. It was created from a basic wireframe and design template. Images were provided; however, icons and fonts were at the developer's discretion.",
+      "description": "This landing page for a chocolate pizza recipe was developed based on a wireframe and design template. While images were provided, I wrote the code and styled it to match the given design and functionality.",
       "techStack": ["JavaScript", "HTML", "CSS"]
     }
   ]

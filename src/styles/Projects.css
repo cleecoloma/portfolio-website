@@ -67,6 +67,7 @@
   font-weight: 400;
   text-transform: none;
   border: none;
+  height: 3.5rem;
 }
 
 #see-more-button:hover {
