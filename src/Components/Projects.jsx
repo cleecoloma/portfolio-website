@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../styles/Projects.css';
@@ -7,6 +7,11 @@ import data from '../data/data.json';
 function Projects({ id }) {
   const projects = data.projects.slice(0, 3);
   const allProjects = data.projects.slice(3);
+  const [seeMore, setSeeMore] = useState(false);
+
+  const handleClick = () => {
+    setSeeMore(!seeMore);
+  };
 
   return (
     <div className='projects-container' id={id}>
@@ -54,8 +59,51 @@ function Projects({ id }) {
           </Card.Body>
         </Card>
       ))}
-      <Button variant='success' id='see-more-button'>
-        SEE MORE PROJECTS
+      {seeMore ? allProjects.map((project) => (
+        <Card key={project.id} className='projects-card'>
+          <Card.Img
+            src={'/images/' + project.name + '.png'}
+            className='card-image'
+          />
+          <Card.Body>
+            <div className='card-header'>
+              <Card.Title id='card-title'>{project.displayName}</Card.Title>
+              <div className='card-links'>
+                <Button
+                  className='link-buttons'
+                  variant='secondary'
+                  size='sm'
+                  href={project.liveLink}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  DEMO
+                </Button>
+                <Button
+                  className='link-buttons'
+                  variant='success'
+                  size='sm'
+                  href={project.github}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  CODE
+                </Button>
+              </div>
+            </div>
+            <Card.Text id='card-text'>{project.description}</Card.Text>
+            <div className='card-skills'>
+              {project.techStack.map((skill) => (
+                <div className='each-skills' key={skill}>
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </Card.Body>
+        </Card>
+      )) : null}
+      <Button variant='success' id='see-more-button' onClick={handleClick}>
+        See {seeMore ? 'less' : 'more'} projects
       </Button>
     </div>
   );
