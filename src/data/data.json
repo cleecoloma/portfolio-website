@@ -52,7 +52,7 @@
       "name": "lost-hub",
       "github": "https://github.com/lost-hub-app",
       "liveLink": "https://lost-hub-app.netlify.app/",
-      "description": "The Lost Hub application streamlines reporting and finding lost items, offering a user-friendly platform to report and retrieve belongings efficiently. It addresses the inconvenience of traditional lost and found systems by providing a centralized digital solution",
+      "description": "The Lost Hub application streamlines reporting and finding lost items, offering a user-friendly platform to report and retrieve belongings efficiently. It addresses the inconvenience of traditional lost and found systems by providing a centralized digital solution.",
       "techStack": [
         "MongoDB",
         "Express",
