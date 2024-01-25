@@ -44,9 +44,9 @@ function HamburgerMenu() {
             </Nav.Link>
             <div id='nav-mode' onClick={toggleMode}>
               {isMode ? (
-                <LightModeIcon fontSize='large' />
-              ) : (
                 <DarkModeIcon fontSize='large' />
+              ) : (
+                <LightModeIcon fontSize='large' />
               )}
             </div>
           </Nav>

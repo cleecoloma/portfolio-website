@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-#header-navbar {
+.header-navbar-light {
   margin: 0 auto;
   width: 1300px;
   z-index: 9001;
@@ -8,6 +8,15 @@
   color: black;
   letter-spacing: 2px;
 }
+
+.header-navbar-dark {
+  margin: 0 auto;
+  width: 1300px;
+  z-index: 9001;
+  background-color: black;
+  color: white !important;
+  letter-spacing: 2px;
+} 
 
 #header-brand {
   padding: 0.5rem 1rem 0;

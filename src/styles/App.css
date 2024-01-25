@@ -4,9 +4,24 @@ body {
   box-sizing: border-box;
 }
 
-.content {
+.content-light {
   max-width: 1300px;
   margin: 0 auto;
+  background-color: white;
+}
+
+.content-dark {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.body-light {
+  background-color: white;
+}
+
+.body-dark {
+  background-color: black;
 }
 
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {

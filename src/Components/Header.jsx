@@ -12,7 +12,10 @@ function Header() {
   const { isMode, toggleMode } = useContext(ThemeContext);
 
   return (
-    <Navbar id='header-navbar' fixed='top'>
+    <Navbar
+      className={isMode ? 'header-navbar-light' : 'header-navbar-dark'}
+      fixed='top'
+    >
       <Navbar.Brand id='header-brand'>
         <span id='first-c'>C</span>
         <span id='second-c'>C</span>
@@ -37,9 +40,9 @@ function Header() {
         </div>
         <div id='nav-right' className='ml-auto' onClick={toggleMode}>
           {isMode ? (
-            <LightModeIcon fontSize='large' />
-          ) : (
             <DarkModeIcon fontSize='large' />
+          ) : (
+            <LightModeIcon fontSize='large' />
           )}
         </div>
       </Nav>
