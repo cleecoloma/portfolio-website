@@ -10,6 +10,10 @@ import '../styles/Header.css';
 function Header() {
   const [isMode, setMode] = useState(false);
 
+  const toggleMode = () => {
+    setMode(!isMode);
+  };
+
   return (
     <Navbar id='header-navbar' fixed='top'>
       <Navbar.Brand id='header-brand'>
@@ -34,8 +38,12 @@ function Header() {
             Contact
           </Nav.Link>
         </div>
-        <div id='nav-right' className='ml-auto'>
-          {isMode ? <LightModeIcon /> : <DarkModeIcon />}
+        <div id='nav-right' className='ml-auto' onClick={toggleMode}>
+          {isMode ? (
+            <LightModeIcon fontSize='large' />
+          ) : (
+            <DarkModeIcon fontSize='large' />
+          )}
         </div>
       </Nav>
     </Navbar>

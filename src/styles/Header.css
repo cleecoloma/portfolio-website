@@ -19,13 +19,26 @@
   margin: 0 0.5rem;
 }
 
+#navigation-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 #nav-left {
   display: flex;
 }
 
 #nav-right {
-  margin-left: auto;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  border-radius: 0.5rem;
+}
+
+#nav-right:hover {
+  background-color: #d2dad3;
 }
 
 #first-c {
