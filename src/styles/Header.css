@@ -18,6 +18,10 @@
   margin: 0 0.5rem;
 }
 
+#nav-left {
+  display: flex;
+}
+
 #first-c {
   color: #0f8064;
   font-weight: 700;
