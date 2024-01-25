@@ -16,16 +16,19 @@
   background-color: black;
   color: white !important;
   letter-spacing: 2px;
-} 
+}
 
 #header-brand {
   padding: 0.5rem 1rem 0;
   letter-spacing: 3px;
 }
 
-
-#header-links {
+.header-links {
   margin: 0 0.5rem;
+}
+
+.header-link-dark {
+  color: #fff !important;
 }
 
 #navigation-links {
@@ -47,7 +50,20 @@
 }
 
 #nav-right:hover {
-  background-color: #e6f1e7;
+  background-color:  lightslategray;
+}
+
+#nav-right-dark {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+#nav-right-dark:hover {
+  background-color: #87c78c;
+  /* color: black; */
 }
 
 #first-c {
@@ -57,8 +73,15 @@
   font-family: 'Luckiest Guy', cursive;
 }
 
-#second-c {
+#second-c-light {
   color: #414141;
+  font-weight: 700;
+  font-size: 200%;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#second-c-dark {
+  color: white;
   font-weight: 700;
   font-size: 200%;
   font-family: 'Luckiest Guy', cursive;
