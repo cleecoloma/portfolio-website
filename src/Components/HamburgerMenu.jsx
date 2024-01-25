@@ -5,6 +5,8 @@ import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 import '../styles/HamburgerMenu.css';
 
 function HamburgerMenu() {
@@ -12,6 +14,12 @@ function HamburgerMenu() {
 
   const handleMenuToggle = () => {
     setShowMenu(!showMenu);
+  };
+
+  const [isMode, setMode] = useState(false);
+
+  const toggleMode = () => {
+    setMode(!isMode);
   };
 
   return (
@@ -38,6 +46,13 @@ function HamburgerMenu() {
             <Nav.Link href='#contact' className='header-links'>
               Contact
             </Nav.Link>
+            <div id='nav-mode' onClick={toggleMode}>
+              {isMode ? (
+                <LightModeIcon fontSize='large' />
+              ) : (
+                <DarkModeIcon fontSize='large' />
+              )}
+            </div>
           </Nav>
         </Navbar>
       )}
