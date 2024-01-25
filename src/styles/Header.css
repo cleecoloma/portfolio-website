@@ -107,7 +107,6 @@
 @media only screen and (min-width: 551px) and (max-width: 800px) {
   .header-navbar-light, .header-navbar-dark {
     max-width: 540px;
-    background-color: rgba(255, 255, 255, 0.95);
   }
 
   #navigation-links {
@@ -120,7 +119,6 @@
     width: 100%;
     max-width: 500px;
     padding: 0 8px;
-    background-color: rgba(255, 255, 255, 0.97);
   }
 
   #navigation-links {
