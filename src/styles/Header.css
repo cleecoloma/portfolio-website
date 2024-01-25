@@ -63,7 +63,6 @@
 
 #nav-right-dark:hover {
   background-color: #87c78c;
-  /* color: black; */
 }
 
 #first-c {
@@ -88,25 +87,25 @@
 }
 
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {
-  #header-navbar {
+  .header-navbar-light, .header-navbar-dark {
     max-width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
-  #header-navbar {
+  .header-navbar-light, .header-navbar-dark {
     max-width: 950px;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1000px) {
-  #header-navbar {
+  .header-navbar-light, .header-navbar-dark {
     max-width: 750px;
   }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
-  #header-navbar {
+  .header-navbar-light, .header-navbar-dark {
     max-width: 540px;
     background-color: rgba(255, 255, 255, 0.95);
   }
@@ -117,7 +116,7 @@
 }
 
 @media only screen and (max-width: 550px) {
-  #header-navbar {
+  .header-navbar-light, .header-navbar-dark {
     width: 100%;
     max-width: 500px;
     padding: 0 8px;
@@ -130,7 +129,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-  #header-navbar {
+  .header-navbar-light, .header-navbar-dark {
     max-width: 350px;
   }
 }

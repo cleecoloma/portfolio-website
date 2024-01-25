@@ -40,7 +40,7 @@ function Header() {
             Contact
           </Nav.Link>
         </div>
-        <div id={isMode ? 'nav-right' : 'nav-right-dark'}className='ml-auto' onClick={toggleMode}>
+        <div id={isMode ? 'nav-right' : 'nav-right-dark'} className='ml-auto' onClick={toggleMode}>
           {isMode ? (
             <DarkModeIcon fontSize='large' />
           ) : (
