@@ -8,7 +8,6 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import '../styles/Header.css';
 
 function Header() {
-
   const [isMode, setMode] = useState(false);
 
   return (
@@ -17,7 +16,7 @@ function Header() {
         <span id='first-c'>C</span>
         <span id='second-c'>C</span>
       </Navbar.Brand>
-      <Nav id='navigation-links' className='me-auto' variant='underline'>
+      <Nav id='navigation-links' variant='underline'>
         <div id='nav-left'>
           <Nav.Link href='#home' className='header-links'>
             Home
@@ -35,8 +34,8 @@ function Header() {
             Contact
           </Nav.Link>
         </div>
-        <div id='nav-right'>
-          { isMode ? <LightModeIcon /> : <DarkModeIcon />}
+        <div id='nav-right' className='ml-auto'>
+          {isMode ? <LightModeIcon /> : <DarkModeIcon />}
         </div>
       </Nav>
     </Navbar>

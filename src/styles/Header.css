@@ -14,12 +14,18 @@
   letter-spacing: 3px;
 }
 
+
 #header-links {
   margin: 0 0.5rem;
 }
 
 #nav-left {
   display: flex;
+}
+
+#nav-right {
+  margin-left: auto;
+  align-items: center;
 }
 
 #first-c {
