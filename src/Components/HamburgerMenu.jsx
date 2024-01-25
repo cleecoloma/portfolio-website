@@ -1,25 +1,21 @@
 'use strict';
 
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import { ThemeContext } from '../context/Theme';
 import '../styles/HamburgerMenu.css';
 
 function HamburgerMenu() {
+  const { isMode, toggleMode } = useContext(ThemeContext);
   const [showMenu, setShowMenu] = useState(false);
 
   const handleMenuToggle = () => {
     setShowMenu(!showMenu);
-  };
-
-  const [isMode, setMode] = useState(false);
-
-  const toggleMode = () => {
-    setMode(!isMode);
   };
 
   return (

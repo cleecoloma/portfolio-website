@@ -1,18 +1,15 @@
 'use strict';
 
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import { ThemeContext } from '../context/Theme';
 import '../styles/Header.css';
 
 function Header() {
-  const [isMode, setMode] = useState(false);
-
-  const toggleMode = () => {
-    setMode(!isMode);
-  };
+  const { isMode, toggleMode } = useContext(ThemeContext);
 
   return (
     <Navbar id='header-navbar' fixed='top'>

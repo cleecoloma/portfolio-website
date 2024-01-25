@@ -9,6 +9,7 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import ProjectsDesktop from './Components/ProjectsDesktop';
 import Contact from './Components/Contact';
+import ThemeProvider from './context/Theme';
 import './styles/App.css';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
   });
 
   return (
+    <ThemeProvider>
       <div className='content'>
         <Header />
         {showMenu && <HamburgerMenu />}
@@ -47,6 +49,7 @@ function App() {
         )}
         <Contact id='contact' />
       </div>
+    </ThemeProvider>
   );
 }
 
