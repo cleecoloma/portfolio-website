@@ -17,7 +17,7 @@
   display: none;
 }
 
-#background-description {
+.background-description {
   text-align: center;
   font-size: 100%;
   display: flex;
@@ -26,6 +26,11 @@
   border-radius: 2rem;
   padding: 2rem 0;
   background-color: #f9f6f6;
+}
+
+.background-description-dark {
+  background-color: rgb(114, 114, 114);
+  color: #dbdbdb;
 }
 
 #first-description {
@@ -66,7 +71,7 @@
     align-items: start;
   }
 
-  #background-description {
+  .background-description {
     flex-direction: column;
   }
 

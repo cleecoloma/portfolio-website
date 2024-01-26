@@ -4,37 +4,52 @@ body {
   box-sizing: border-box;
 }
 
-.content {
+.content-light {
   max-width: 1300px;
   margin: 0 auto;
+  background-color: white;
+}
+
+.content-dark {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.body-light {
+  background-color: white;
+}
+
+.body-dark {
+  background-color: black;
 }
 
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {
-  .content {
+  .content-light, .content-dark {
     max-width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
-  .content {
+  .content-light, .content-dark {
     max-width: 950px;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1000px) {
-  .content {
+  .content-light, .content-dark {
     max-width: 750px;
   }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
-  .content {
+  .content-light, .content-dark {
     max-width: 540px;
   }
 }
 
 @media only screen and (max-width: 550px) {
-  .content {
+  .content-light, .content-dark {
     width: 100%;
     max-width: 500px;
     padding: 0 8px;
@@ -42,7 +57,7 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-  .content {
+  .content-light, .content-dark {
     max-width: 350px;
     padding: 0 4px;
   }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-#header-navbar {
+.header-navbar-light {
   margin: 0 auto;
   width: 1300px;
   z-index: 9001;
@@ -9,13 +9,60 @@
   letter-spacing: 2px;
 }
 
+.header-navbar-dark {
+  margin: 0 auto;
+  width: 1300px;
+  z-index: 9001;
+  background-color: black;
+  color: #dbdbdb !important;
+  letter-spacing: 2px;
+}
+
 #header-brand {
   padding: 0.5rem 1rem 0;
   letter-spacing: 3px;
 }
 
-#header-links {
+.header-links {
   margin: 0 0.5rem;
+}
+
+.header-link-dark {
+  color: #dbdbdb !important;
+}
+
+#navigation-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-left {
+  display: flex;
+}
+
+#nav-right {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+#nav-right:hover {
+  background-color: lightslategray;
+}
+
+#nav-right-dark {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+#nav-right-dark:hover {
+  background-color: #87c78c;
 }
 
 #first-c {
@@ -25,35 +72,45 @@
   font-family: 'Luckiest Guy', cursive;
 }
 
-#second-c {
+#second-c-light {
   color: #414141;
   font-weight: 700;
   font-size: 200%;
   font-family: 'Luckiest Guy', cursive;
 }
 
+#second-c-dark {
+  color: #dbdbdb;
+  font-weight: 700;
+  font-size: 200%;
+  font-family: 'Luckiest Guy', cursive;
+}
+
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {
-  #header-navbar {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
-  #header-navbar {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 950px;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1000px) {
-  #header-navbar {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 750px;
   }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
-  #header-navbar {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 540px;
-    background-color: rgba(255, 255, 255, 0.95);
   }
 
   #navigation-links {
@@ -62,11 +119,11 @@
 }
 
 @media only screen and (max-width: 550px) {
-  #header-navbar {
+  .header-navbar-light,
+  .header-navbar-dark {
     width: 100%;
     max-width: 500px;
     padding: 0 8px;
-    background-color: rgba(255, 255, 255, 0.97);
   }
 
   #navigation-links {
@@ -75,7 +132,8 @@
 }
 
 @media only screen and (max-width: 400px) {
-  #header-navbar {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 350px;
   }
 }

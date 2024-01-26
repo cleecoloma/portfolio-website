@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
+import { ThemeContext } from '../context/Theme';
 import '../styles/Hero.css';
 
 function Hero({ id }) {
+  const { isMode } = useContext(ThemeContext);
+
   return (
-    <div className='hero-container' id={id}>
-      <div className='left-div'>
+    <div
+      className={
+        isMode ? 'hero-container' : 'hero-container hero-container-dark'
+      }
+      id={id}
+    >
+      <div className={isMode ? 'left-div' : 'left-div left-div-dark'}>
         <img src='../../images/chester.jpeg' alt='chester' id='hero-img' />
         <h1>
           <span>CHESTER LEE</span> COLOMA
@@ -15,25 +23,21 @@ function Hero({ id }) {
         <hr />
       </div>
       <div className='right-div'>
-        <p id='hero-message'>
+        <p
+          className={isMode ? 'hero-message' : 'hero-message hero-message-dark'}
+        >
           I build <span id='hero-message-span'>digital bridges</span> that
           connect <strong>ideas</strong> with the <strong>world.</strong>
         </p>
         <div id='button-container'>
           <Button
             id='project-button'
-            className='button-style'
             variant='contained'
             href='#projects'
           >
             See my projects
           </Button>
-          <Button
-            id='contact-button'
-            className='button-style'
-            variant='outlined'
-            href='#contact'
-          >
+          <Button id='contact-button' variant='outlined' href='#contact'>
             Contact me
           </Button>
         </div>

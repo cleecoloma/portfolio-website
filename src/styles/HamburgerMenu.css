@@ -1,9 +1,9 @@
-#hamburger-menu {
+.hamburger-menu {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #e4e3e3;
   color: #0f8064;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -11,8 +11,23 @@
   text-align: end;
 }
 
-#hamburger-menu svg {
+.hamburger-menu-dark {
+  background-color: #232222;
+  color: white;
+}
+
+.header-link-dark {
+  color: #fff !important;
+}
+
+.hamburger-menu svg {
   font-size: 3rem;
+}
+
+#nav-mode:hover {
+  background-color: rgb(162, 162, 162);
+  border-radius: 1rem;
+  color: white;
 }
 
 @media only screen and (max-width: 800px) {
@@ -33,7 +48,7 @@
   margin-top: 10px;
 }
 
-#hamburger-menu:hover {
+.hamburger-menu:hover {
   background-color: #f1f5f4;
 }
 

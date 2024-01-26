@@ -11,8 +11,12 @@
 .hero-container img {
   margin: 0 auto;
   border-radius: 50%;
-  box-shadow: rgba(116, 26, 26, 0.35) 0px 5px 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 380px;
+}
+
+.hero-container-dark img {
+  box-shadow: rgba(216, 215, 215, 1) 0px 5px 15px;
 }
 
 .hero-container h1 {
@@ -32,18 +36,24 @@
   color: #414141;
 }
 
-#hero-message {
+.hero-message {
   margin: 2rem 0 0;
   font-size: 380%;
   font-weight: 300;
   color: #414141;
 }
 
-#hero-message strong {
+.hero-container-dark h3,
+.hero-container-dark h1,
+.hero-message-dark {
+  color: #dbdbdb;
+}
+
+.hero-message strong {
   font-weight: 700;
 }
 
-#hero-message-span {
+.hero-message-span {
   text-decoration: underline;
 }
 
@@ -117,7 +127,7 @@
     font-size: 140%;
   }
 
-  #hero-message {
+  .hero-message {
     font-size: 300%;
   }
 
@@ -159,7 +169,7 @@
     font-size: 160%;
   }
 
-  #hero-message {
+  .hero-message {
     font-size: 350%;
     padding: 0 2rem 4rem;
   }
@@ -198,7 +208,7 @@
     font-size: 140%;
   }
 
-  #hero-message {
+  .hero-message {
     margin: 1rem 0 0;
     font-size: 350%;
   }
@@ -216,7 +226,7 @@
 
 @media only screen and (max-width: 550px) {
   .hero-container {
-    min-height: auto;
+    padding: 6rem 0 2rem;
   }
 
   .hero-container img {
@@ -232,7 +242,7 @@
     font-size: 130%;
   }
 
-  #hero-message {
+  .hero-message {
     margin: 1rem 0 0;
     font-size: 290%;
     padding: 0 1rem 4rem;
@@ -258,8 +268,8 @@
 }
 
 @media only screen and (max-width: 400px) {
-   .hero-container {
-    padding: 5rem 0 2rem;
+  .hero-container {
+    padding: 6rem 0 2rem;
   }
 
   .hero-container img {
@@ -274,7 +284,7 @@
     font-size: 120%;
   }
 
-  #hero-message {
+  .hero-message {
     font-size: 220%;
     padding: 0 0 2rem;
   }
