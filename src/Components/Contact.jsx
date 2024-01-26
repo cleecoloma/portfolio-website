@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { ThemeContext } from '../context/Theme';
 import '../styles/Contact.css';
 
 function Contact({ id }) {
+  const { isMode } = useContext(ThemeContext);
+
   return (
-    <div className='contact-container' id={id}>
+    <div
+      className={
+        isMode
+          ? 'contact-container'
+          : 'contact-container contact-container-dark'
+      }
+      id={id}
+    >
       <h4>CONTACT</h4>
       <div className='contact-body'>
         <div className='contact-left'>
@@ -79,11 +89,15 @@ function Contact({ id }) {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <GitHubIcon id='github-icon' />
+          <GitHubIcon id={isMode ? 'github-icon' : 'github-icon-dark'} />
         </a>
       </div>
 
-      <div id='footer-container'>
+      <div
+        className={
+          isMode ? 'footer-container' : 'footer-container footer-container-dark'
+        }
+      >
         <p>
           Designed and built by
           <br />

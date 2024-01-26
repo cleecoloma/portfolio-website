@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.contact-container-dark {
+  color: #dbdbdb;
+}
+
 .contact-container h4 {
   padding: 2rem 2rem 1rem;
   font-weight: 700;
@@ -78,7 +82,12 @@
   font-size: 400%;
 }
 
-#footer-container {
+#github-icon-dark {
+  color: #ffffff;
+  font-size: 400%;
+}
+
+.footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,12 +97,16 @@
   font-size: 110%;
 }
 
-#footer-container span:first-child {
+.footer-container span:first-child {
   color: #0f8064;
 }
 
-#footer-container span:nth-child(2) {
+.footer-container span:nth-child(2) {
   color: #3e3b3b;
+}
+
+.footer-container-dark span:nth-child(2) {
+  color: #ffffff;
 }
 
 #success-message {
