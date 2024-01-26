@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import SettingsIcon from '@mui/icons-material/Settings';
 import ForwardIcon from '@mui/icons-material/Forward';
 import CodeIcon from '@mui/icons-material/Code';
+import { ThemeContext } from '../context/Theme';
 import '../styles/Background.css';
 
 function Background({ id }) {
+  const { isMode } = useContext(ThemeContext);
+
   return (
     <div className='background-container' id={id}>
       <h4>BACKGROUND</h4>
-      <div id='background-description'>
+      <div
+        className={
+          isMode
+            ? 'background-description'
+            : 'background-description background-description-dark'
+        }
+      >
         <div id='first-description'>
           Former <strong>mechanical engineer</strong> with an active secret
           clearance and{' '}
