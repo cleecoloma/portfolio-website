@@ -14,7 +14,7 @@
   width: 1300px;
   z-index: 9001;
   background-color: black;
-  color: white !important;
+  color: #dbdbdb !important;
   letter-spacing: 2px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .header-link-dark {
-  color: #fff !important;
+  color: #dbdbdb !important;
 }
 
 #navigation-links {
@@ -50,7 +50,7 @@
 }
 
 #nav-right:hover {
-  background-color:  lightslategray;
+  background-color: lightslategray;
 }
 
 #nav-right-dark {
@@ -80,32 +80,36 @@
 }
 
 #second-c-dark {
-  color: white;
+  color: #dbdbdb;
   font-weight: 700;
   font-size: 200%;
   font-family: 'Luckiest Guy', cursive;
 }
 
 @media only screen and (min-width: 1221px) and (max-width: 1440px) {
-  .header-navbar-light, .header-navbar-dark {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 1200px;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1220px) {
-  .header-navbar-light, .header-navbar-dark {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 950px;
   }
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1000px) {
-  .header-navbar-light, .header-navbar-dark {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 750px;
   }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 800px) {
-  .header-navbar-light, .header-navbar-dark {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 540px;
   }
 
@@ -115,7 +119,8 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .header-navbar-light, .header-navbar-dark {
+  .header-navbar-light,
+  .header-navbar-dark {
     width: 100%;
     max-width: 500px;
     padding: 0 8px;
@@ -127,7 +132,8 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .header-navbar-light, .header-navbar-dark {
+  .header-navbar-light,
+  .header-navbar-dark {
     max-width: 350px;
   }
 }
