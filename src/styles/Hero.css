@@ -226,7 +226,7 @@
 
 @media only screen and (max-width: 550px) {
   .hero-container {
-    min-height: auto;
+    padding: 6rem 0 2rem;
   }
 
   .hero-container img {

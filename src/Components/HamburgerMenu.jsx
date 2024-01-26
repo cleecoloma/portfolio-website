@@ -21,7 +21,9 @@ function HamburgerMenu() {
 
   return (
     <div
-      id={isMode ? 'hamburger-menu-light' : 'hamburger-menu-dark'}
+      className={
+        isMode ? 'hamburger-menu' : 'hamburger-menu hamburger-menu-dark'
+      }
       onClick={handleMenuToggle}
     >
       {showMenu && (

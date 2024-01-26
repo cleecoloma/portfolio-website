@@ -1,4 +1,4 @@
-#hamburger-menu-light {
+.hamburger-menu {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
@@ -11,24 +11,16 @@
   text-align: end;
 }
 
-#hamburger-menu-dark {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  cursor: pointer;
+.hamburger-menu-dark {
   background-color: #232222;
   color: white;
-  padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  text-align: end;
 }
 
 .header-link-dark {
   color: #fff !important;
 }
 
-#hamburger-menu svg {
+.hamburger-menu svg {
   font-size: 3rem;
 }
 
@@ -56,7 +48,7 @@
   margin-top: 10px;
 }
 
-#hamburger-menu:hover {
+.hamburger-menu:hover {
   background-color: #f1f5f4;
 }
 
