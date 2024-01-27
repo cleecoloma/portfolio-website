@@ -24,6 +24,10 @@
   padding: 2rem 0;
 }
 
+.skills-img-dark {
+  filter: invert(100%);
+}
+
 #icon-container {
   display: none;
 }
@@ -59,7 +63,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .skills {
+  .skills {
     padding: 8px 4px;
   }
 }
